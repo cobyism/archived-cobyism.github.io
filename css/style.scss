@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  float: left;
+  width: 300px;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  p {
+    font-size: 12px;
+  }
+}

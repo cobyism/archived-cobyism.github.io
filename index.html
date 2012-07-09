@@ -1,11 +1,9 @@
-{% include top.html %}
+---
+layout: default
+---
 
-	<h1>Coby Chapple</h1>
-	<p>Hi, I'm Coby. I work at <a href="https://github.com/about" title="The most awesome company in the world">GitHub</a>.</p>
 	<ul>
-		<li><a href="https://github.com/cobyism">GitHub</a></li>
-		<li><a href="http://twitter.com/cobyism">Twitter</a></li>
-		<li><a href="mailto:coby@cobychapple.com">Email</a></li>
+		{% for post in site.posts %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
 	</ul>
-
-{% include footer.html %}
