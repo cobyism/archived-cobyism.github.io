@@ -1,17 +1,12 @@
+---
+body_class: default-layout
+---
+
 {% include top.html %}
 
 <body class="default-layout">
 
-  <header>
-    <img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=60" title="Coby Chapple ({{ site.handle }})">
-    <h1>Coby Chapple</h1>
-    <p>Interface designer, web developer, and rocket surgeon at <a href="https://github.com/about" title="The most awesome company in the world">GitHub</a>.</p>
-    <ul>
-      <li><a href="https://github.com/{{ site.handle }}">Follow me on GitHub</a></li>
-      <li><a href="http://twitter.com/{{ site.handle }}">Follow me on Twitter</a></li>
-      <li><a href="mailto:coby@cobychapple.com">Send me a message</a></li>
-    </ul>
-  </header>
+  {% include header.html %}
 
   <div id="main">
     {{ content }}

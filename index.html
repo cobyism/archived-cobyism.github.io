@@ -2,8 +2,10 @@
 layout: default
 ---
 
-	<ul>
+	<div class="posts">
 		{% for post in site.posts %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			<section>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </section>
 		{% endfor %}
-	</ul>
+	</div>
