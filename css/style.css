@@ -1,22 +1,29 @@
 /* Global */
 
-html, body {
+body {
   margin: 0;
-  padding: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 2em;
+  font-family: Merriweather, Vollkorn, "Gentium Book Basic", Alegreya, Georgia, serif;
+  font-weight: 200;
+  font-size: 21px;
   color: #444;
-  text-align: center;
+  border-top: .5em solid #EF4723;
+  background: #FCFAF2;
 }
 
-body {
-  border-top: .3em solid #09f;
-  background: url(http://subtlepatterns.com/patterns/tileable_wood_texture.png) top left repeat;
+h1, h2, h3, h4, h5, h6, .button {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.button {
+  font-weight: 600;
 }
 
 /* Header */
 
 header {
-  padding-top: 1em;
+  /*padding-top: 1em;*/
+  width: 310px;
 }
 
 header ul {
@@ -28,6 +35,11 @@ header ul li {
   display: inline-block;
 }
 
+.logo img, .logo h1 {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
 .logo img {
   width: 80px;
   height: 80px;
@@ -36,8 +48,12 @@ header ul li {
 
 .logo h1 {
   margin: 0;
-  padding: 0;
+  padding: .25em .2em;
   font-size: 2em;
+}
+
+.logo span {
+  color: #ccc;
 }
 
 /* Main */

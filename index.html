@@ -4,8 +4,10 @@ layout: default
 
 	<div class="posts">
 		{% for post in site.posts %}
-			<section>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </section>
+      {% unless post.draft %}
+  			<section>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </section>
+      {% endunless %}
 		{% endfor %}
 	</div>
