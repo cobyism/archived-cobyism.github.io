@@ -3,20 +3,75 @@
 body {
   margin: 0;
   padding: 2em;
-  font-family: Merriweather, Vollkorn, "Gentium Book Basic", Alegreya, Georgia, serif;
-  font-weight: 200;
+  font-family: Georgia, serif;
+  /*font-family: Merriweather, Georgia, serif;*/
+  /*font-family: Vollkorn, Georgia, serif;*/
+  /*font-family: "Gentium Book Basic", Georgia, serif;*/
+  font-family: Alegreya, Georgia, serif;
+  /*font-family: "Linden Hill", Georgia, serif;*/
+  /*font-family: "Sorts Mill Goudy", Georgia, serif;*/
+  font-weight: 300;
   font-size: 21px;
-  color: #444;
+  color: #666;
   border-top: .5em solid #EF4723;
   background: #FCFAF2;
 }
 
+strong {
+  /*font-weight: normal;*/
+/*  text-transform: lowercase;
+  font-variant: small-caps;
+*/  color: #333;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0;
+  position: relative;
+}
+
+blockquote:before {
+  content: "“";
+  font-size: 72px;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  top: -.3em;
+  left: -.2em;
+}
+
+blockquote:after {
+  content: "”";
+  font-size: 72px;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  bottom: -.35em;
+  right: -.5em;
+}
+
+blockquote p {
+  margin: 0;
+  padding-left: 1.5em;
+  font-style: italic;
+  /*font-size: .85em;*/
+}
+
+article h1 + p {
+  font-size: 24px;
+}
+
 h1, h2, h3, h4, h5, h6, .button {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;*/
 }
 
 .button {
   font-weight: 600;
+}
+
+article {
+  width: 700px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -24,6 +79,7 @@ h1, h2, h3, h4, h5, h6, .button {
 header {
   /*padding-top: 1em;*/
   width: 310px;
+  display: none;
 }
 
 header ul {
@@ -59,13 +115,13 @@ header ul li {
 /* Main */
 
 #main {
-  background: #fff;
+  /*background: #fff;*/
 }
 
 /* Footer */
 
 footer {
-
+  display: none;
 }
 
 /* Re-usable */
@@ -84,8 +140,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #09f;
+  color: #c90707;
   text-decoration: none;
+}
+
+p {
+  line-height: 32px;
 }
 
 /* Media Queries */

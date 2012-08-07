@@ -5,5 +5,7 @@ body_class: post-layout
 
 <article>
   <a href="/">&larr; Back home</a>
+  <p class="date">{{ page.date | date_to_long_string }}</p>
+  <h1>{{ page.title }}</h1>
   {{ content }}
 </article>

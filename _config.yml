@@ -1,5 +1,6 @@
-auto: true
-server: true
+# auto: true
+# server: true
 url: http://cobyism.com/
+permalink: /blog/:title/
 handle: cobyism
 gravatar_hash: ee5bae7fa46b3195869c285ecbb4619e
