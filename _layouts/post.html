@@ -9,18 +9,13 @@
       <article class="whole">
         <div class="content">
           <header class="center">
-            <p class="date">
-              <span>{{ page.date | date_to_long_string }}</span>
-            </p>
+            <p class="date">{{ page.date | date_to_long_string }}</p>
             <h1>{{ page.title }}</h1>
             <p class="author">by Coby Chapple</p>
-            <p class="links">
-            </p>
           </header>
           {{ content }}
           <div class="center">
-            <a href="/" title="Go back">« Back</a> |
-            <a href="{{ page.url }}" title="Permalink">Permalink #</a>
+            <a href="{{ site.url }}" title="Home">« More Articles</a>
           </div>
         </div>
       </article>

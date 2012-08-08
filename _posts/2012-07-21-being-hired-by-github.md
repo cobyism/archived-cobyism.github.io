@@ -10,7 +10,7 @@ As a result of me recently [joining the team GitHub](https://github.com/blog/114
 
 For the past 7 years I've ...
 
-## Amazing what 
+## Amazing what
 
 ## Interviews
 
