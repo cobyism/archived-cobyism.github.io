@@ -1,11 +1,34 @@
----
-layout: default
-body_class: post-layout
----
+{% include top.html %}
 
-<article>
-  <a href="/">&larr; Back home</a>
-  <p class="date">{{ page.date | date_to_long_string }}</p>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
-</article>
+<body class="post-layout wrap">
+
+  {% include header.html %}
+
+  <div id="main">
+    <div class="gridism">
+      <article class="whole">
+        <div class="content">
+          <header class="center">
+            <p class="date">
+              <span>{{ page.date | date_to_long_string }}</span>
+            </p>
+            <h1>{{ page.title }}</h1>
+            <p class="author">by Coby Chapple</p>
+            <p class="links">
+            </p>
+          </header>
+          {{ content }}
+          <div class="center">
+            <a href="/" title="Go back">« Back</a> |
+            <a href="{{ page.url }}" title="Permalink">Permalink #</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+</html>
+

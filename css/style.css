@@ -2,14 +2,8 @@
 
 body {
   margin: 0;
-  padding: 2em;
-  font-family: Georgia, serif;
-  /*font-family: Merriweather, Georgia, serif;*/
-  /*font-family: Vollkorn, Georgia, serif;*/
-  /*font-family: "Gentium Book Basic", Georgia, serif;*/
+  padding: 1.5em 0;
   font-family: Alegreya, Georgia, serif;
-  /*font-family: "Linden Hill", Georgia, serif;*/
-  /*font-family: "Sorts Mill Goudy", Georgia, serif;*/
   font-weight: 300;
   font-size: 21px;
   color: #666;
@@ -17,17 +11,66 @@ body {
   background: #FCFAF2;
 }
 
-strong {
-  /*font-weight: normal;*/
-/*  text-transform: lowercase;
-  font-variant: small-caps;
-*/  color: #333;
+/* Header */
+
+header {
+  text-align: center;
 }
+
+header ul {
+  padding: 0;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.logo img, .logo h1 {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+}
+
+.logo h1 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  padding: .25em .2em;
+  font-size: 2em;
+  font-weight: 400;
+  color: #666;
+}
+
+.logo span {
+  color: #ccc;
+}
+
+/* Elsewhere */
+
+.elsewhere li {
+  margin: 10px;
+}
+
+.elsewhere li a {
+  opacity: .5;
+}
+
+.elsewhere li a:hover {
+  opacity: 1;
+}
+
+/* Articles */
 
 blockquote {
   margin: 1em 0;
   padding: 0;
   position: relative;
+  font-family: Alegreya, Georgia, serif;
 }
 
 blockquote:before {
@@ -53,105 +96,101 @@ blockquote:after {
 blockquote p {
   margin: 0;
   padding-left: 1.5em;
-  font-style: italic;
-  /*font-size: .85em;*/
 }
 
-article h1 + p {
+article header + p {
   font-size: 24px;
 }
 
-h1, h2, h3, h4, h5, h6, .button {
-  /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;*/
-}
-
-.button {
-  font-weight: 600;
-}
-
-article {
-  width: 700px;
-  margin: 0 auto;
-}
-
-/* Header */
-
-header {
-  /*padding-top: 1em;*/
-  width: 310px;
-  display: none;
-}
-
-header ul {
-  padding: 0;
-}
-
-header ul li {
-  list-style-type: none;
-  display: inline-block;
-}
-
-.logo img, .logo h1 {
-  display: inline-block;
-  vertical-align: text-top;
-}
-
-.logo img {
-  width: 80px;
-  height: 80px;
-  border-radius: 60px;
-}
-
-.logo h1 {
+h1, .author, article .date, .links {
   margin: 0;
-  padding: .25em .2em;
-  font-size: 2em;
 }
 
-.logo span {
-  color: #ccc;
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6
+{
+  line-height: 1em;
+  margin: .2em 0;
 }
 
-/* Main */
+.author {
+  font-family: "Alegreya SC", Georgia, serif;
+  font-size: .85em;
+}
 
-#main {
-  /*background: #fff;*/
+.links {
+  font-size: .85em;
+  color: #aaa;
+  margin: .25em;
+}
+
+.article-list .title {
+  font-size: 1.2em;
+}
+
+.article-list .date, .article-list .title {
+  line-height: 32px;
 }
 
 /* Footer */
 
 footer {
-  display: none;
+  text-align: center;
 }
 
-/* Re-usable */
+hr {
+}
 
-.button {
-  background: #09f;
-  color: #fff;
-  padding: .3em .5em;
-  border-radius: .3em;
+footer h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer p {
+  margin-top: .5em;
+}
+
+.copyright {
+  font-size: .75em;
 }
 
 /* HTML */
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  color: #333;
 }
+
+hr {
+  margin: 1.5em 0;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  }
 
 a {
   color: #c90707;
   text-decoration: none;
+  transition: opacity .1s;
+  -moz-transition: opacity .1s;
+  -webkit-transition: opacity .1s;
+  -o-transition: opacity .1s;
 }
 
 p {
   line-height: 32px;
 }
 
-/* Media Queries */
+/* Media queries */
 
-@media only screen and (max-width: 321px) {
-
-
-
+@media screen and (max-width: 480px){
+  .article-list .date {
+    margin-bottom: -.8em;
+  }
 }

@@ -1,15 +1,13 @@
----
-body_class: default-layout
----
-
 {% include top.html %}
 
-<body class="default-layout">
+<body class="default-layout wrap">
 
   {% include header.html %}
 
   <div id="main">
-    {{ content }}
+    <div class="gridism">
+      {{ content }}
+    </div>
   </div>
 
   {% include footer.html %}

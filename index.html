@@ -1,13 +1,27 @@
 ---
 layout: default
 ---
-
-	<div class="posts">
+	<div class="articles">
+    <div class="whole center">
+      <div class="content">
+        <h2>Articles</h2>
+      </div>
+    </div>
 		{% for post in site.posts %}
       {% unless post.draft %}
-  			<section>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </section>
+  			<div class="article-list">
+          <div class="quarter">
+            <div class="date content right center-on-mobiles">
+              {{ post.date | date_to_string }}
+            </div>
+          </div>
+          <div class="three-quarters">
+            <div class="title content center-on-mobiles">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
       {% endunless %}
 		{% endfor %}
 	</div>
