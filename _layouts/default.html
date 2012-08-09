@@ -1,16 +1,11 @@
 {% include top.html %}
+{% include header.html %}
 
-<body class="default-layout wrap">
-
-  {% include header.html %}
-
-  <div id="main">
-    <div class="gridism">
-      {{ content }}
-    </div>
+<div id="main">
+  <div class="gridism">
+    {{ content }}
   </div>
+</div>
 
-  {% include footer.html %}
-
-</body>
-</html>
+{% include footer.html %}
+{% include bottom.html %}
