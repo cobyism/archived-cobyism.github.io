@@ -1,27 +1,54 @@
----
-layout: default
----
-	<div class="articles">
-    <div class="whole center">
-      <div class="content">
-        <h2>Articles</h2>
-      </div>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Coby Chapple (@cobyism)</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <h1>Hi, I’m Coby Chapple.</h1>
+      <p>I work at GitHub, where I focus on improving the interactions people who build software have—with each other, and with their tools—in order to get meaningful stuff done.</p>
     </div>
-		{% for post in site.posts %}
-      {% unless post.draft %}
-  			<div class="article-list">
-          <div class="quarter">
-            <div class="date content right center-on-mobiles">
-              {{ post.date | date_to_string }}
-            </div>
-          </div>
-          <div class="three-quarters">
-            <div class="title content center-on-mobiles">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </div>
-          </div>
-          <div class="clear"></div>
+  </section>
+  <section>
+    <div class="container">
+      <h2>My work</h2>
+      <figure class="work">
+        <div class="work-type">
+          <h3>Design</h3>
+          <div style="width: 20%;">Information architecture</div>
+          <div style="width: 30%;">Visual, interface, and interaction design</div>
         </div>
-      {% endunless %}
-		{% endfor %}
-	</div>
+        <div class="work-type">
+          <h3>Code</h3>
+          <div style="width: 40%;">Content, styles, and behaviour (HTML, CSS, and JavaScript)</div>
+          <div style="width: 10%;">Application functionality (Ruby, Git)</div>
+        </div>
+      </figure>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <p>I live near Belfast, in the UK. I’m a strong believer that meaningful connections *between real people* are the secret to great things, so I’d love to meet you if you’re nearby.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2>Connect with me online</h2>
+      <ul>
+        <li class="method github"><a href="https://github.com/cobyism">GitHub</a></li>
+        <li class="method twitter"><a href="http://twitter.com/cobyism">Twitter</a></li>
+        <li class="method email"><a href="mailto:coby@github.com">Email</a></li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <p>This site is <a href="https://github.com/cobyism/cobyism.github.com">available on GitHub</a>, and hosted using <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+    </div>
+  </section>
+</body>
+</html>
