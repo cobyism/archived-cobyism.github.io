@@ -14,8 +14,13 @@ section {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+  color: #0bf;
+}
+
 .container {
-  max-width: 600px;
+  /*max-width: 600px;*/
   padding: 20px 30px;
   margin: 0 auto;
   text-align: center;
@@ -86,5 +91,15 @@ h1 {
 }
 
 .social .method {
-  display: inline-block;
+  display: block;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.social .method:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.social .method a {
+  display: block;
 }
