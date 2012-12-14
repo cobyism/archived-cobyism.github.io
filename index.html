@@ -7,41 +7,57 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <section>
+  <section class="intro">
     <div class="container">
-      <h1>Hi, I’m Coby Chapple.</h1>
-      <p>I work at GitHub, where I focus on improving the interactions people who build software have—with each other, and with their tools—in order to get meaningful stuff done.</p>
+      <h1>Hi, I’m Coby.</h1>
+      <p>I work at GitHub, where I focus on improving the interactions people have—with each other, and with their tools—in order to get meaningful stuff done.</p>
     </div>
   </section>
-  <section>
+  <section class="work">
     <div class="container">
       <h2>My work</h2>
-      <figure class="work">
+      <figure class="work-graph">
         <div class="work-type">
           <h3>Design</h3>
-          <div style="width: 20%;">Information architecture</div>
-          <div style="width: 30%;">Visual, interface, and interaction design</div>
+          <div class="work-item ia" style="width: 40%;">
+            <span class="short">IA</span>
+            <span class="percentage">40%</span>
+            <span class='long'>Information architecture</span>
+          </div>
+          <div class="work-item ui" style="width: 60%;">
+            <span class="short">UI, IxD</span>
+            <span class="percentage">60%</span>
+            <span class='long'>Visual, interface, and interaction design</span>
+          </div>
         </div>
         <div class="work-type">
           <h3>Code</h3>
-          <div style="width: 40%;">Content, styles, and behaviour (HTML, CSS, and JavaScript)</div>
-          <div style="width: 10%;">Application functionality (Ruby, Git)</div>
+          <div class="work-item frontend" style="width: 80%;">
+            <span class="short">Front-end</span>
+            <span class="percentage">80%</span>
+            <span class='long'>Content, styles, and behaviour (HTML, CSS, and JavaScript)</span>
+          </div>
+          <div class="work-item backend" style="width: 20%;">
+            <span class="short">App</span>
+            <span class="percentage">20%</span>
+            <span class='long'>Application functionality (Ruby, Git)</span>
+          </div>
         </div>
       </figure>
     </div>
   </section>
   <section>
     <div class="container">
-      <p>I live near Belfast, in the UK. I’m a strong believer that meaningful connections *between real people* are the secret to great things, so I’d love to meet you if you’re nearby.</p>
+      <p>I live near Belfast, in the UK. I’m a strong believer that meaningful connections <em>between real people</em> are the secret to great things, so I’d love to meet you if you’re nearby.</p>
     </div>
   </section>
   <section>
     <div class="container">
       <h2>Connect with me online</h2>
-      <ul>
-        <li class="method github"><a href="https://github.com/cobyism">GitHub</a></li>
-        <li class="method twitter"><a href="http://twitter.com/cobyism">Twitter</a></li>
-        <li class="method email"><a href="mailto:coby@github.com">Email</a></li>
+      <ul class="social">
+        <li class="method github">Fork my code on <a href="https://github.com/cobyism">GitHub</a></li>
+        <li class="method twitter">Follow me on <a href="http://twitter.com/cobyism">Twitter</a></li>
+        <li class="method email">Get in touch via <a href="mailto:coby@github.com">Email</a></li>
       </ul>
     </div>
   </section>

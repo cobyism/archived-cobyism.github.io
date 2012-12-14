@@ -1,5 +1,5 @@
-# auto: true
-# server: true
+auto: true
+server: true
 url: http://cobyism.com/
 permalink: /articles/:title/
 handle: cobyism

@@ -1,5 +1,90 @@
+html, body {
+  font: 21px "Open Sans", Helvetica, Arial, sans-serif;
+  color: #3b3939;
+}
+
+h1, h2, h3 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+section {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
 .container {
-  max-width: 700px;
+  max-width: 600px;
   padding: 20px 30px;
   margin: 0 auto;
+  text-align: center;
+}
+
+/* Intro */
+
+h1 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+
+
+/* Work */
+
+.work .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.work-graph {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.work-type, .work-item {
+  float: left;
+}
+
+.work-type {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.work-type h3 {
+  margin-top: 0;
+}
+
+.work-item {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.5);
+}
+
+.work-item span {
+  padding: 20px 0;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+}
+
+.work-item .percentage {
+  opacity: .2;
+}
+
+.ia       { background-color: #c00; }
+.ui       { background-color: #fc0; }
+.frontend { background-color: #0bf; }
+.backend  { background-color: #cc9; }
+
+.work-item .long { display: none; }
+
+/* Social */
+
+.social {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social .method {
+  display: inline-block;
 }
