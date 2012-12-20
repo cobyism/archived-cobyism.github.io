@@ -1,6 +1,7 @@
 html, body {
   font: 18px "Open Sans", Helvetica, Arial, sans-serif;
   color: #3b3939;
+  line-height: 1.5em;
 }
 
 h1, h2, h3 {
@@ -36,20 +37,25 @@ body:before {
 
 /* Intro */
 
-.intro .container {
-  margin-top: 20px;
+header .container {
+  padding-top: 40px;
 }
 
-h1 {
+header h1 {
   font-size: 2em;
   font-weight: 300;
-  margin-top: 0;
+  margin-top: .25em;
 }
 
-img {
+header img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+header p {
+  max-width: 465px;
+  margin: 1em auto;
 }
 
 @media (min-width: 480px) {
@@ -59,8 +65,15 @@ img {
   header {
     line-height: 1em;
   }
+  header h1 {
+    margin-top: 0;
+  }
   header img {
     margin-right: 10px;
+  }
+  header p {
+    font-size: 1.25em;
+    line-height: 1.5em;
   }
 }
 
@@ -72,19 +85,47 @@ img {
   color: #e6e6e6;
 }
 
+.location p {
+  font-weight: 300;
+}
+
+.location .container {
+  max-width: 860px;
+}
+
 .location a {
   color: #fc0;
 }
 
 .uk img {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 237px;
 }
 
 .uk {
   position: relative;
-  max-width: 200px;
+  width: 200px;
   margin: -50px auto 0;
+}
+
+@media (min-width: 540px) {
+  .uk {
+    float: left;
+    margin-bottom: -25px;
+  }
+}
+
+@media (max-width: 859px) {
+  .location .container {
+    max-width: 590px;
+  }
+}
+
+@media (min-width: 860px) {
+  .location p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
 }
 
 .uk .pulse {
@@ -149,12 +190,59 @@ img {
   padding: 0;
 }
 
+.social .method {
+  float: left;
+  width: 100%;
+}
+
 .social .method a {
-  display: block;
-  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
   border-bottom: none;
+  background: -webkit-linear-gradient(#c00, #a00);
+  color: #fff;
+  padding: 1em 0;
+  box-shadow: inset 0 1px 3 rgba(255,255,255,.2);
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+
+.social .method:first-child a {
+  border-radius: 3px 3px 0 0;
 }
 
 .social .method:last-child a {
-  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 3px 3px;
+}
+
+@media (min-width: 580px) {
+  .social .method {
+    width: 33.33%;
+  }
+  .social .method:first-child a {
+    border-radius: 3px 0 0 3px;
+  }
+  .social .method:last-child a {
+    border-radius: 0 3px 3px 0;
+  }
+  .social .method a {
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    box-shadow: inset -1px 0 0 #900, inset 1px 0 0 rgba(255,255,255,.3);
+    border-top: 1px solid #900;
+    border-bottom: 1px solid #900;
+  }
+  .social .method span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: none;
+  }
+}
+
+/* Footer */
+
+footer {
+  font-size: 13px;
 }
