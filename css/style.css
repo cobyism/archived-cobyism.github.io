@@ -52,6 +52,13 @@ header {
   margin: 10px 10px 0 0;
   opacity: .5;
   vertical-align: middle;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.social img:hover {
+  opacity: 1;
 }
 
 @media (min-width: 768px){
@@ -59,8 +66,14 @@ header {
     float: left;
   }
   .avatar {
-    width: 210px;
-    height: 210px;
+    /*width: 210px;
+    height: 210px;*/
+  }
+  .intro, .contact {
+    font-size: 1.8em;
+  }
+  .social {
+    margin-top: 15px;
   }
   .social img {
     width: 48px;
@@ -69,7 +82,7 @@ header {
 
 /* Intro */
 
-.intro {
+.intro, .contact {
   padding: 1.5em;
 }
 
@@ -80,9 +93,21 @@ header {
   margin: 0;
 }
 
+/* Links */
+
+.contact ul {
+  padding-left: 0;
+}
+.contact li {
+  line-height: 1.5em;
+  list-style-position: inside;
+}
+
 /* Footer */
 
 footer {
   padding: 1em 1.5em;
   text-align: center;
+  font-size: .8em;
+  color: #aaa;
 }
