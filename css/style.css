@@ -9,42 +9,58 @@ html, body {
   line-height: 1.5em;
   margin: 0;
   padding: 0;
-  color: #222;
-}
-
-header, section, footer {
-  float: left;
-  width: 100%;
-  clear: both;
+  color: #586e75;
 }
 
 a {
   text-decoration: none;
-  color: #c00;
+  color: #dc322f;
 }
 
 strong {
   font-weight: 900;
 }
 
-/* Header */
-
-header {
-  padding: 2em 0 0;
-  overflow: hidden;
+.jumbotype {
+  width: 30px;
+  height: 217px;
+  position: fixed;
+  top: 10px;
+  left: 0;
 }
 
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 0 50% 50% 0;
-  float: left;
+body {
+  padding-left: 40px;
+  background: #eee8d5;
 }
 
-.social {
-  float: left;;
-  margin-top: 25px;
-  margin-left: 2em;
+@media (min-height: 320px){
+  .jumbotype {
+    width: 42px;
+    height: 309px;
+  }
+  body {
+    padding-left: 52px;
+  }
+}
+
+@media (min-height: 475px){
+  .jumbotype {
+    width: 63px;
+    height: 464px;
+  }
+  body {
+    padding-left: 73px;
+  }
+}
+@media (min-height: 630px){
+  .jumbotype {
+    width: 84px;
+    height: 618px;
+  }
+  body {
+    padding-left: 94px;
+  }
 }
 
 .social img {
@@ -61,53 +77,16 @@ header {
   opacity: 1;
 }
 
-@media (min-width: 768px){
-  header {
-    float: left;
-  }
-  .avatar {
-    /*width: 210px;
-    height: 210px;*/
-  }
-  .intro, .contact {
-    font-size: 1.8em;
-  }
-  .social {
-    margin-top: 15px;
-  }
-  .social img {
-    width: 48px;
-  }
-}
-
-/* Intro */
-
-.intro, .contact {
-  padding: 1.5em;
-}
-
-.intro p {
+p {
   font-size: 1.5em;
   line-height: 1.5em;
   letter-spacing: -.03em;
-  margin: 0;
-}
-
-/* Links */
-
-.contact ul {
-  padding-left: 0;
-}
-.contact li {
-  line-height: 1.5em;
-  list-style-position: inside;
 }
 
 /* Footer */
 
 footer {
-  padding: 1em 1.5em;
-  text-align: center;
+  margin: 1em 0;
   font-size: .8em;
   color: #aaa;
 }
