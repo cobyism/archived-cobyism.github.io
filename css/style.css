@@ -63,6 +63,10 @@ body {
   }
 }
 
+.social {
+  margin-bottom: 2em;
+}
+
 .social img {
   width: 28px;
   margin: 10px 10px 0 0;
@@ -81,6 +85,18 @@ p {
   font-size: 1.5em;
   line-height: 1.5em;
   letter-spacing: -.03em;
+}
+
+@media (min-width: 768px){
+  p {
+    font-size: 3em;
+  }
+  .content {
+    margin: 0 2em 0;
+  }
+  .social img {
+    width: 48px;
+  }
 }
 
 /* Footer */
