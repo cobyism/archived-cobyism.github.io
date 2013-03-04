@@ -1,0 +1,38 @@
+/* General */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+/* I use full-width horizontal sections a lot */
+body > header,
+body > section,
+body > footer {
+  display: block;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+/* Styles to help demonstrate the grid */
+
+.demo .g span {
+  text-align: center;
+  background: #fc0;
+  border-radius: 3px;
+  display: block;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.g {
+  -webkit-transition: max-width .25s ease-in-out;
+  -moz-transition: max-width .25s ease-in-out;
+  transition: max-width .25s ease-in-out;
+}
+
+.u .g {
+  overflow: hidden;
+  background: rgba(255,204,0,.4);
+}
