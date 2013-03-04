@@ -1,3 +1,14 @@
+/* Colors
+blue-medium: 19394D
+blue-highlight: 3780A4
+blue-deep: 121636
+orange: BF8640
+pale: F6EBE4
+red: 913930
+red-deep: 26150D
+green: 194D4B
+ */
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5,104 +16,51 @@
 }
 
 html, body {
-  font: 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5em;
   margin: 0;
   padding: 0;
-  color: #586e75;
+}
+
+body {
+  background: #19394D;
 }
 
 a {
   text-decoration: none;
-  color: #dc322f;
+  color: #3780A4;
 }
 
-strong {
-  font-weight: 900;
+nav ul {
+  padding-left: 0;
 }
 
-.jumbotype {
-  width: 30px;
-  height: 217px;
-  position: fixed;
-  top: 10px;
-  left: 0;
+nav li {
+  display: inline-block;
 }
 
-body {
-  padding-left: 40px;
-  background: #eee8d5;
+h1, h2, h3 {
+  letter-spacing: -1px;
 }
 
-@media (min-height: 320px){
-  .jumbotype {
-    width: 42px;
-    height: 309px;
-  }
-  body {
-    padding-left: 52px;
-  }
+header {
+  padding: 60px 0;
 }
 
-@media (min-height: 475px){
-  .jumbotype {
-    width: 63px;
-    height: 464px;
-  }
-  body {
-    padding-left: 73px;
-  }
-}
-@media (min-height: 630px){
-  .jumbotype {
-    width: 84px;
-    height: 618px;
-  }
-  body {
-    padding-left: 94px;
-  }
+header h1 {
+  color: #121636;
+  font-weight: 800;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 
-.social {
-  margin-bottom: 2em;
+nav a {
+  font-weight: 800;
+  float: left;
+  width: 100%;
+  line-height: 4rem;
+  text-transform: uppercase;
 }
 
-.social img {
-  width: 28px;
-  margin: 10px 10px 0 0;
-  opacity: .5;
-  vertical-align: middle;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-.social img:hover {
-  opacity: 1;
-}
-
-p {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  letter-spacing: -.03em;
-}
-
-@media (min-width: 768px){
-  p {
-    font-size: 3em;
-  }
-  .content {
-    margin: 0 2em 0;
-  }
-  .social img {
-    width: 48px;
-  }
-}
-
-/* Footer */
-
-footer {
-  margin: 1em 0;
-  font-size: .8em;
-  color: #aaa;
+nav .current a {
+  color: #F6EBE4;
 }
