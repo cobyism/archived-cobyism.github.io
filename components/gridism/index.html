@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>grid(ism)</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/gridism.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="wrap">
+  <header>
+    <div class="g">
+      <div class="u w-1-1 align-center">
+        <h1><a href="http://cobyism.com/gridism">grid(ism)</a></h1>
+        <p>An experiment in responsive CSS grids.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="demo">
+    <header class="align-center">
+      <h3>Example Grid</h3>
+    </header>
+    <div class="g">
+      <div class="u w-1-1 pad-h pad-v">
+        <span>.w-1-1</span>
+      </div>
+    </div>
+    <div class="g">
+      <div class="u w-1-2 pad-h pad-v">
+        <span>.w-1-2</span>
+      </div>
+      <div class="u w-1-2 pad-h pad-v">
+        <span>.w-1-2</span>
+      </div>
+    </div>
+    <div class="g">
+      <div class="u w-1-3 pad-h pad-v">
+        <span>.w-1-3</span>
+      </div>
+      <div class="u w-2-3 pad-h pad-v">
+        <span>.w-2-3</span>
+      </div>
+    </div>
+    <div class="g">
+      <div class="u w-1-4 pad-h pad-v">
+        <span>.w-1-4</span>
+      </div>
+      <div class="u w-3-4 pad-h pad-v">
+        <span>.w-3-4</span>
+      </div>
+    </div>
+    <div class="g">
+      <div class="u w-1-5 pad-h pad-v">
+        <span>.w-1-5</span>
+      </div>
+      <div class="u w-4-5 pad-h pad-v">
+        <span>.w-4-5</span>
+      </div>
+    </div>
+    <div class="g">
+      <div class="u w-2-5 pad-h pad-v">
+        <span>.w-2-5</span>
+      </div>
+      <div class="u w-3-5 pad-h pad-v">
+        <span>.w-3-5</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo nested-grid">
+    <header class="align-center">
+      <h3>Nested Grids work too</h3>
+    </header>
+    <div class="g">
+      <div class="u w-1-3 pad-h pad-v">
+        <span>.w-1-3</span>
+      </div>
+      <div class="u w-2-3 pad-h pad-v">
+        <div class="g">
+          <div class="u w-1-1 pad-h pad-v">
+            <span>Nested grid</span>
+          </div>
+        </div>
+        <div class="g">
+          <div class="u w-1-5 pad-h pad-v">
+            <span>.w-1-3</span>
+          </div>
+          <div class="u w-3-5 pad-h pad-v">
+            <div class="g">
+              <div class="u w-1-1 pad-h pad-v">
+                <span>Nested grid</span>
+              </div>
+            </div>
+            <div class="g">
+              <div class="u w-1-3 pad-h pad-v">
+                <span>.w-1-3</span>
+              </div>
+              <div class="u w-2-3 pad-h pad-v">
+                <span>.w-2-3</span>
+              </div>
+            </div>
+          </div>
+          <div class="u w-1-5 pad-h pad-v">
+            <span>.w-1-3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="g">
+      <div class="u w-1-2 pad-h pad-v">
+        <div class="center-on-mobiles">
+          <p>© Coby Chapple — All rights reserved.</p>
+        </div>
+      </div>
+      <div class="u w-1-2 pad-h pad-v">
+        <div class="align-right center-on-mobiles">
+          <p>This project is <a href="https://github.com/cobyism/gridism">open-source</a> and accepting pull requests. Fork at will.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '50ed90bdf5a1f50492000007');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+</body>
+</html>
