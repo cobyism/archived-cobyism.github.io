@@ -14,6 +14,11 @@ html, body {
   background: #F9F5EC;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  word-wrap: normal;
 }
 
 h1, .fin {
