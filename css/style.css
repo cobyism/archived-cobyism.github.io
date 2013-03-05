@@ -5,104 +5,60 @@
 }
 
 html, body {
-  font: 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5em;
-  margin: 0;
-  padding: 0;
-  color: #586e75;
+  font-family: 'Merriweather', serif;/**/
+  font-size: 18px;
+  padding: 1.5em .5em;
+  color: #555;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #F9F5EC;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
 }
 
-a {
+h1, .fin {
+  color: #E3C9AB;
+  font-family: 'Libre Baskerville', serif;/**/
+}
+
+h1 {
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: -.08em;
+}
+
+a  {
+  color: #c00;
   text-decoration: none;
-  color: #dc322f;
+  border-bottom: 1px solid #ddd;
 }
 
-strong {
-  font-weight: 900;
+p + p {
+  text-indent: 0;
 }
 
-.jumbotype {
-  width: 30px;
-  height: 217px;
-  position: fixed;
-  top: 10px;
-  left: 0;
+footer {
+  font-size: 14px;
 }
 
-body {
-  padding-left: 40px;
-  background: #eee8d5;
+.fin {
+  font-size: 36px;
 }
 
-@media (min-height: 320px){
-  .jumbotype {
-    width: 42px;
-    height: 309px;
+@media (min-width: 570px){
+  html, body {
+    font-size: 24px;
   }
-  body {
-    padding-left: 52px;
+  footer {
+    font-size: 16px;
   }
-}
-
-@media (min-height: 475px){
-  .jumbotype {
-    width: 63px;
-    height: 464px;
-  }
-  body {
-    padding-left: 73px;
-  }
-}
-@media (min-height: 630px){
-  .jumbotype {
-    width: 84px;
-    height: 618px;
-  }
-  body {
-    padding-left: 94px;
-  }
-}
-
-.social {
-  margin-bottom: 2em;
-}
-
-.social img {
-  width: 28px;
-  margin: 10px 10px 0 0;
-  opacity: .5;
-  vertical-align: middle;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-.social img:hover {
-  opacity: 1;
-}
-
-p {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  letter-spacing: -.03em;
 }
 
 @media (min-width: 768px){
-  p {
-    font-size: 3em;
+  html, body {
+    font-size: 36px;
   }
-  .content {
-    margin: 0 2em 0;
+  footer {
+    font-size: 18px;
   }
-  .social img {
-    width: 48px;
-  }
-}
-
-/* Footer */
-
-footer {
-  margin: 1em 0;
-  font-size: .8em;
-  color: #aaa;
 }
