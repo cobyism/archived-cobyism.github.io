@@ -5,7 +5,7 @@
 }
 
 html, body {
-  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-family: 'Vollkorn', Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #555;
   max-width: 960px;
@@ -39,6 +39,10 @@ header {
 
 header h1 {
   margin: 0;
+}
+
+header h1 span {
+  color: #aaa;
 }
 
 p {
