@@ -46,7 +46,7 @@ header h1 span {
 }
 
 p {
-  line-height: 1.6em;
+  line-height: 1.8em;
 }
 
 .avatar {
@@ -59,6 +59,12 @@ a  {
   color: #c00;
   text-decoration: none;
   border-bottom: 1px solid #ddd;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  border-bottom-color: #c00;
 }
 
 p + p {
@@ -109,38 +115,23 @@ footer {
   }
 }
 
-.nav-toggle {
-  border: 0;
-  color: #c00;
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 3px;
-  position: absolute;
-  top: 20px;
-  right: 0;
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
 }
 
-.collapse {
-  height: auto;
-  overflow: visible;
+nav ul {
+  padding-left: 0;
 }
 
-@media (max-width: 767px){
-  .collapse {
-    height: 0;
-    overflow: hidden;
-  }
-  .nav-toggle {
-    display: inline-block;
-  }
+nav a {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: .8em;
 }
 
-@media (min-width: 768px){
-  .collapse {
-    height: auto !important;
-    overflow: visible !important;
-  }
-  .nav-toggle {
-    display: none;
-  }
+nav .current a {
+  color: #333;
+  border-bottom-color: #333;
 }
