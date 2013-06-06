@@ -8,9 +8,7 @@ html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #b9b5aa;
-  /*background: #F2EAD9;*/
-  background: url(../img/bg.jpg) top left repeat;
-  background-size: 512px 384px;
+  background: #f5f4f0;
 }
 
 a {
@@ -44,9 +42,7 @@ abbr[title] {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  padding: 3px;
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  box-shadow: 0 0 0 3px #fff, 0 3px 10px rgba(0,0,0,.1);
 }
 
 .cobyism {
