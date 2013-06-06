@@ -34,8 +34,43 @@ abbr[title] {
 
 /* Header */
 
+.avatar,
+.cobyism {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.cobyism {
+  font-weight: 900;
+  text-shadow: 0 1px 0 #fff;
+  letter-spacing: -1px;
+  color: #b9b5aa;
+  font-size: 1.2em;
+  margin-left: .2em;
+}
+
+@media (max-width: 380px){
+  .cobyism {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.contact {
+  margin-top: .75em;
+}
+
 header .grid {
-  padding-top: 20px;
+  padding-top: 2em;
 }
 
 header h1,
@@ -70,13 +105,6 @@ nav li {
 
 @media (min-width: 600px){
   .intro p {
-    font-size: 1.8em;
-  }
-}
-
-
-@media (min-width: 960px){
-  .intro p {
     font-size: 2.5em;
   }
 }
@@ -95,7 +123,6 @@ footer {
 }
 
 .article-summary {
-  /*border-top: 1px solid #c00;*/
   padding-top: .5em;
   margin-bottom: 2em;
 }
