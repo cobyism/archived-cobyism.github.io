@@ -8,10 +8,13 @@ html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #b9b5aa;
+  /*background: #F2EAD9;*/
+  background: url(../img/bg.jpg) top left repeat;
+  background-size: 512px 384px;
 }
 
 a {
-  color: #911;
+  color: #c00;
   text-decoration: none;
 }
 
@@ -49,6 +52,12 @@ nav li {
 
 /* Intro */
 
+
+.intro {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
 .intro p {
   display: inline;
   font-size: 1.5em;
@@ -76,4 +85,28 @@ nav li {
 
 footer {
   font-size: 16px;
+}
+
+/* Article list */
+
+.articles h2 {
+  margin: 0;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.article-summary {
+  /*border-top: 1px solid #c00;*/
+  padding-top: .5em;
+  margin-bottom: 2em;
+}
+
+.article-summary h3 {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.article-meta {
+  font-size: 1.17em;
 }
