@@ -1,0 +1,43 @@
+---
+render_liquid: true
+---
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Coby Chapple • cobyism</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}components/gridism/gridism.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
+  <script language="javascript" type="text/javascript">
+     addEventListener("load", function(event)
+     {
+       setTimeout(function(){window.scrollTo(0, 1);}, 100);
+     }, false);
+  </script>
+</head>
+<body class="wrap">
+
+  {{ content }}
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="{{ site.url }}/components/jquery/jquery.min.js"><\/script>')</script>
+
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '{{ site.gauges_id }}');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+</body>
+</html>
