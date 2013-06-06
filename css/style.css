@@ -3,3 +3,77 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+html, body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #b9b5aa;
+}
+
+a {
+  color: #911;
+  text-decoration: none;
+}
+
+p a {
+  color: #444;
+  border-bottom: 1px solid #c00;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+abbr[title] {
+  border-bottom: 1px solid #ddd;
+  cursor: help;
+}
+
+/* Header */
+
+header .grid {
+  padding-top: 20px;
+}
+
+header h1,
+header ul,
+header li {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* Intro */
+
+.intro p {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.intro p + p {
+  margin-left: .1em;
+}
+
+@media (min-width: 600px){
+  .intro p {
+    font-size: 1.8em;
+  }
+}
+
+
+@media (min-width: 960px){
+  .intro p {
+    font-size: 2.5em;
+  }
+}
+
+/* Footer */
+
+footer {
+  font-size: 16px;
+}
