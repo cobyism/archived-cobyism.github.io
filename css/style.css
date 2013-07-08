@@ -12,7 +12,7 @@ html, body {
 }
 
 a {
-  color: #c00;
+  color: #f83;
   text-decoration: none;
 }
 
@@ -33,31 +33,58 @@ abbr[title] {
 /* Header */
 
 .avatar,
-.cobyism {
-  display: inline-block;
+.id {
+  display: block;
   vertical-align: middle;
 }
 
-.avatar {
+.avatar img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
   box-shadow: 0 0 0 3px #fff, 0 3px 10px rgba(0,0,0,.1);
+  vertical-align: middle;
 }
 
-.cobyism {
-  font-weight: 900;
+.id {
+  text-align: center;
+}
+
+.name,
+.handle {
+  display: block;
+  line-height: 1em;
+}
+
+.name {
+  font-weight: 600;
   text-shadow: 0 1px 0 #fff;
   letter-spacing: -1px;
-  color: #b9b5aa;
-  font-size: 1.2em;
-  margin-left: .2em;
+  color: #807066;
+  font-size: .6em;
 }
 
-@media (max-width: 380px){
-  .cobyism {
-    display: block;
-    margin-left: 0;
+.handle {
+  font-size: .45em;
+}
+
+@media (max-width: 568px){
+  .id {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 568px){
+  header .unit.half {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 569px){
+  .avatar,
+  .id {
+    display: inline-block;
+    text-align: left;
   }
 }
 
@@ -75,6 +102,33 @@ header li {
 nav li {
   list-style-type: none;
   display: inline-block;
+}
+
+.contact a {
+  font-size: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  color: #807066;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-transition: color .25s;
+}
+
+.contact i {
+  width: 32px;
+  display: block;
+}
+
+.contact a:hover {
+  color: #f83;
+}
+
+@media (min-width: 380px) and (max-width: 568px){
+  .contact {
+    display: inline-block;
+    width: 100px;
+  }
 }
 
 /* Intro */
