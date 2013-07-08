@@ -7,7 +7,7 @@
 html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #b9b5aa;
+  color: #807066;
   background: #f5f4f0;
 }
 
@@ -18,7 +18,7 @@ a {
 
 p a {
   color: #444;
-  border-bottom: 1px solid #c00;
+  border-bottom: 1px solid #f83;
 }
 
 h1 {
