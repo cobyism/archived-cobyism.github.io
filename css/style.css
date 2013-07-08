@@ -39,8 +39,8 @@ abbr[title] {
 }
 
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   box-shadow: 0 0 0 3px #fff, 0 3px 10px rgba(0,0,0,.1);
 }
@@ -59,10 +59,6 @@ abbr[title] {
     display: block;
     margin-left: 0;
   }
-}
-
-.contact {
-  margin-top: .75em;
 }
 
 header .grid {
