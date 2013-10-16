@@ -1,0 +1,3 @@
+[dciy]
+commands.prepare = ['bundle install']
+commands.cibuild = ['bundle exec jekyll build']
