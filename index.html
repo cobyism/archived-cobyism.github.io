@@ -2,11 +2,26 @@
 layout: default
 ---
 
-<section class="intro animated fadeInUp">
-  <div class="grid">
-    <div class="unit whole center-on-mobiles">
-      <p>Hi, I’m Coby. I’m a <abbr title="User Interface">UI</abbr> designer at <a href="https://github.com">GitHub</a>, and live near Belfast, Northern Ireland.</p>
-      <p>I care about focused, approachable interfaces, and information architecture that encourages flow.</p>
-    </div>
+<section class="intro">
+  <div class="container">
+    <h2>Intro</h2>
+    <p class="lead">
+      Hi, I’m Coby. I’m an interface designer at <a href="https://github.com">GitHub</a>.
+      I&nbsp;care about focused, approachable interfaces, and information architecture
+      that encourages&nbsp;flow.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Articles</h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>

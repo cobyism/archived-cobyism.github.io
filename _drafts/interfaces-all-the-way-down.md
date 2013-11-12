@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Interfaces all the way down
 ---
 
