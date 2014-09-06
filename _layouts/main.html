@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  <div class="container">
+
+    {% include header.html %}
+
+    <section class="main">
+      {{ content }}
+    </section>
+
+    <footer>
+      --
+      <p>Copyright © {{ site.time | date: '%Y' }} Coby&nbsp;Chapple. All&nbsp;rights&nbsp;reserved.</p>
+    </footer>
+
+  </div>
+
+  {% include analytics.html %}
+
+</body>
+</html>

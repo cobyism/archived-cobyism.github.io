@@ -1,0 +1,53 @@
+- topic: Design in the Realm of Open Source
+  event: Refresh
+  event_url: http://refreshbelfast.com/
+  location: Belfast, Northern Ireland
+  date: 9 August 2013
+  slides: https://speakerdeck.com/cobyism/design-in-the-realm-of-open-source
+
+- topic: Jekyll and GitHub Pages
+  event: Belfast Ruby
+  event_url: http://belfastruby.com/
+  location: Belfast, Northern Ireland
+  date: 4 March 2014
+  slides: https://speakerdeck.com/cobyism/jekyll-and-github-pages-belfast-ruby-number-12
+
+- topic: How design happens at GitHub
+  event: ScotlandJS
+  event_url: http://scotlandjs.com/
+  location: Edinburgh, Scotland
+  date: 9 May 2014
+  slides: https://speakerdeck.com/cobyism/how-design-happens-at-github-scotlandjs-2014
+  video: http://vimeo.com/96430140
+
+- topic: Remote by default
+  event: BACON
+  event_url: http://devslovebacon.com/
+  location: London, England
+  date: 16 May 2014
+  slides: https://speakerdeck.com/cobyism/remote-by-default-bacon-2014
+  video: http://devslovebacon.com/conferences/bacon-2014/talks/remote-by-default-how-github-makes-working-remotely-not-suck
+
+- topic: How GitHub Works (keynote)
+  event: GitHub Kaigi
+  event_url: http://githubkaigi.org/
+  location: Tokyo, Japan
+  date: 1 June 2014
+  slides: https://speakerdeck.com/cobyism/how-github-works-github-kaigi-tokyo-2014
+
+- topic: How GitHub Works / Design at GitHub
+  event: Kyoto University Design School
+  location: Kyoto, Japan
+  date: 2 June 2014
+
+- topic: Design at GitHub
+  event: Workshop
+  location: Osaka, Japan
+  date: 3 June 2014
+
+- topic: Mastering Static Sites with Jekyll and GitHub Pages
+  event: Converge
+  event_url: http://converge.cx/
+  location: Glasgow, Scotland
+  date: 15 August 2014
+  slides: https://speakerdeck.com/cobyism/static-sites-with-jekyll-and-github-pages

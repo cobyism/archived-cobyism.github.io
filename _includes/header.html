@@ -1,0 +1,12 @@
+
+<img src="https://github.com/{{ site.author.handle }}.png" alt="{{ site.author.name }} (@{{ site.author.handle }})" class="avatar">
+
+<header>
+  Hi, I’m <strong>{{ site.author.name }}</strong>.
+  {% if page.title == "Home" %}
+    I&nbsp;go by <strong>@{{ site.author.handle }}</strong> <a href="https://github.com/{{ site.author.handle }}">most</a> <a href="https://twitter.com/{{ site.author.handle }}">places</a>&nbsp;<a href="http://instagram.com/{{ site.author.handle }}">online</a>.
+  {% else %}
+    I’m&nbsp;a designer and developer at <a href="https://github.com">GitHub</a>.<br>
+    <a href="{{ site.baseurl }}">&larr; Go to the homepage</a> for more articles like this&nbsp;one.
+  {% endif %}
+</header>

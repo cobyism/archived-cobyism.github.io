@@ -1,0 +1,21 @@
+---
+layout: main
+---
+
+<article class="post">
+
+  <div class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">Written by <a href="https://twitter.com/{{ site.author.handle }}">@{{ site.author.handle }}</a>, {{ page.date | date_to_long_string }}</span>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    <p><strong>Enjoy this post?</strong> You might enjoy <a href="https://twitter.com/{{ site.author.handle }}">following me on Twitter</a>.</p>
+    <p><a href="{{ site.baseurl }}">&larr; Back to the homepage</a> for more articles like this one.</p>
+  </div>
+
+</article>

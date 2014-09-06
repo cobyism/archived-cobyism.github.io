@@ -1,0 +1,18 @@
+title: "@cobyism"
+description: Product designer and web developer at GitHub
+
+author:
+  name: Coby Chapple
+  handle: cobyism
+  email: coby@cobyism.com
+
+permalink: pretty
+baseurl: /
+url: http://cobyism.com
+highlighter: pygments
+
+gems:
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
