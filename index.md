@@ -12,8 +12,7 @@ I’m a product designer and web developer at [GitHub](https://github.com), and 
 Occasionally, I write things. I wish I did this more often.
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) – {{ post.date | date_to_long_string }}
-{% endfor %}
+- [{{ post.title }}]({{ post.url }}) – {{ post.date | date_to_long_string }}{% endfor %}
 
 I sometimes also write on the [GitHub blog](https://github.com/blog).
 Here’s a couple of articles:
