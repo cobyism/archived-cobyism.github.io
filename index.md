@@ -3,7 +3,7 @@ layout: main
 title: Home
 ---
 
-I’m a product designer and web developer at [GitHub](https://github.com), and live just south of Belfast, in County&nbsp;Down, Northern Ireland. I’m&nbsp;originally from New&nbsp;Zealand, but also lived in Australia too. I&nbsp;care about building focused products, approachable interfaces, and information architecture that encourages&nbsp;flow. I&nbsp;also love photography, mountain&nbsp;biking, and studying martial&nbsp;arts.
+I’m a product designer at [GitHub](https://github.com), and work remotely from my home in County&nbsp;Down, Northern Ireland. I&nbsp;care about building focused products, approachable interfaces, and information architecture that encourages&nbsp;flow.
 
 [Follow me on Twitter &rarr;](https://twitter.com/{{ site.author.handle }})
 
