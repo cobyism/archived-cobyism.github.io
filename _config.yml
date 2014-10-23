@@ -6,7 +6,7 @@ author:
   handle: cobyism
   email: coby@cobyism.com
 
-permalink: pretty
+permalink: /blog/:title/
 baseurl: /
 url: http://cobyism.com
 highlighter: pygments
