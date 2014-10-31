@@ -2,7 +2,8 @@
 ---
 
 html {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  /* font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; */
+  font-family: "ff-tisa-web-pro", Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -102,6 +103,9 @@ footer {
 }
 
 .post-header {
+
+  text-align: center;
+
   .post-title {
     font-size: 21px;
     margin-bottom: 0;
