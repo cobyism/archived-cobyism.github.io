@@ -9,7 +9,8 @@ I’m a product designer at [GitHub](https://github.com), and work remotely from
 
 ## Writing
 
-Occasionally, I write things. I wish I did this more often.
+Occasionally, I write things.
+Subscribe <a href="http://feeds.feedburner.com/cobyism" target="_blank">via RSS</a> or <a href="https://feedburner.google.com/fb/a/mailverify?uri=cobyism&amp;loc=en_US" target="_blank">get free updates by email</a>.
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) – {{ post.date | date_to_long_string }}{% endfor %}
