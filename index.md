@@ -10,7 +10,7 @@ I’m a product designer at [GitHub](https://github.com), and work remotely from
 ## Writing
 
 Occasionally, I write things.
-Subscribe <a href="http://feeds.feedburner.com/cobyism" target="_blank">via RSS</a> or <a href="https://feedburner.google.com/fb/a/mailverify?uri=cobyism&amp;loc=en_US" target="_blank">get free updates by email</a>.
+<a href="http://eepurl.com/-9Cj9" target="_blank">Get free updates by email</a> or subscribe <a href="http://feeds.feedburner.com/cobyism" target="_blank">via RSS</a>.
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) – {{ post.date | date_to_long_string }}{% endfor %}
