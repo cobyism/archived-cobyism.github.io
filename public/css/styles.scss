@@ -129,7 +129,7 @@ ul {
   box-shadow: 0 0 3px rgba(0,0,0,0.1);
   border-radius: 3px;
   margin: 0 10px;
-  padding: 1em;
+  padding: 1.5em 1em;
   clear: both;
 
   & > h1:first-child,
@@ -175,14 +175,15 @@ ul {
 
   .newsletter-form-heading {
     text-align: center;
-    margin: .5em 0 0;
+    margin: .5em 0;
     font-weight: bold;
   }
 
   p {
     font-size: 14px;
-    margin: 0 0 .5em;
+    margin: .5em 0;
     color: #666;
+    line-height: 1em;
   }
 
   input,
@@ -246,7 +247,8 @@ button,
   h3,
   h4,
   p {
-    margin: 0
+    margin: 0;
+    line-height: 1.2em;
   }
 
   .button {
