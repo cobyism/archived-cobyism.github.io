@@ -13,7 +13,7 @@ Connect elsewhere online:
 
 - [Twitter](https://twitter.com/cobyism)
 - [Instagram](https://instagram.com/cobyism)
-- [GitHub](https://instagram.com/cobyism)
+- [GitHub](https://github.com/cobyism)
 - [Speakerdeck](https://speakerdeck.com/cobyism)
 
 **Got a question?** I’d love to hear from you. Just [send me an email](mailto:{{ site.author.email }}).
