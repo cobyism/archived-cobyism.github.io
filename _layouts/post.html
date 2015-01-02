@@ -6,7 +6,7 @@ layout: main
 
   <div class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <span class="post-date">Written by <a href="https://twitter.com/{{ site.author.handle }}">@{{ site.author.handle }}</a>, {{ page.date | date_to_long_string }}</span>
+    <span class="post-meta">{{ page.date | date_to_long_string }}</span>
   </div>
 
   <div class="post-content">
@@ -14,9 +14,8 @@ layout: main
   </div>
 
   <div class="post-footer">
-    <p><strong>Enjoy this post?</strong> <a href="http://eepurl.com/-9Cj9" target="_blank">Get free updates by email</a> or subscribe <a href="http://feeds.feedburner.com/cobyism">via RSS</a>.</p>
-    {% if page.hacker_news %}<p>Peanut gallery comments <a href="{{ page.hacker_news }}">on Hacker News</a>.</p>{% endif %}
-    <p><a href="{{ site.baseurl }}">&larr; Back to the homepage</a> for more articles like this one.</p>
+    <strong>Enjoy this post?</strong>
+    Sign up for my newsletter or <a href="{{ site.baseurl }}writing/">keep reading</a>.
   </div>
 
 </article>

@@ -3,7 +3,7 @@ layout: post
 title: A remote state of mind
 ---
 
-<blockquote class="twitter-tweet" lang="en"><p>Today’s office: fireside. <a href="http://t.co/leuL67KqmM">pic.twitter.com/leuL67KqmM</a></p>&mdash; Coby Chapple (@cobyism) <a href="https://twitter.com/cobyism/status/544515995411677186">December 15, 2014</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" lang="en"><p>Today’s office: fireside. <a href="http://t.co/leuL67KqmM">pic.twitter.com/leuL67KqmM</a></p>&mdash; Coby Chapple (@cobyism) <a href="https://twitter.com/cobyism/status/544515995411677186">December 15, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I work remotely, which means that for the vast majority of the time, I’m working from my home. A lot of people who ask me about working remotely tell me that they think they’d struggle to be productive working from home, and they’re probably right—at least to start with. It took me a while to get the hang of working from home when I first started, and even having done it for 8 or 9 years, some days are still trickier than others.
