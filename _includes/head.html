@@ -6,6 +6,8 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} • {{ site.description }}
+    {% elsif page.is_post %}
+      {{ page.title }}, by @{{ site.author.handle }}
     {% else %}
       {{ page.title }} • {{ site.title }}
     {% endif %}
