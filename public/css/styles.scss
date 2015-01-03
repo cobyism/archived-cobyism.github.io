@@ -306,6 +306,63 @@ article {
   }
 }
 
+.post-author-info {
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: 1em;
+  overflow: hidden;
+  text-align: center;
+
+  .avatar {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
+
+  .text {
+    display: block;
+
+    h4,
+    p {
+      font-size: 12px;
+      line-height: 1.4em;
+      margin: 0;
+    }
+  }
+
+  .bio {
+    margin: 0.5em 0;
+  }
+}
+
+@media (min-width: 500px){
+  .post-author-info {
+    text-align: left;
+
+    .avatar {
+      float: left;
+    }
+    .text {
+      float: left;
+      width: 76%;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .post-author-info {
+    .text {
+      width: 76%;
+
+      h4,
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -327,4 +384,16 @@ article {
 .fadeIn {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
+}
+
+.clear,
+.clearfix,
+.cf {
+  clear: both;
+
+  &:after {
+    clear: both;
+    display: table;
+    width: 100%;
+  }
 }

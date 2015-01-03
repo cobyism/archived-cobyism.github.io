@@ -17,7 +17,16 @@ is_post: true
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 
-  <div class="post-footer">
+  <div class="post-author-info clear">
+    <img src="{{ site.baseurl }}public/avatar.jpg" alt="Coby Chapple (@cobyism)" width="64px" class="avatar">
+    <div class="text">
+      <h4>About {{ site.author.name }}</h4>
+      <p class="bio">Coby is a product designer at <a href="https://github.com/">GitHub</a>. He&nbsp;also writes and <a href="{{ site.baseurl }}talks/">speaks</a> about product&nbsp;design, open&nbsp;source, and working&nbsp;remotely.</p>
+      <p><a href="{{ site.baseurl }}about/">Read more &rarr;</a></p>
+    </div>
+  </div>
+
+  <div class="post-footer clear">
     <strong>Enjoy this post?</strong>
     Sign up for my newsletter or <a href="{{ site.baseurl }}writing/">keep reading</a>.
   </div>
