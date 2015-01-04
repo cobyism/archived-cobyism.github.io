@@ -17,6 +17,7 @@
 }
 
 body {
+  border-top: 3px solid #d83;
   background: #F5EFEF;
   color: #332;
   font-family: "Merriweather", Georgia, serif;
@@ -70,9 +71,27 @@ header {
     width: 25%;
     padding: 0;
 
+    &.social {
+      width: 12%
+    }
+
     a {
       color: #887768;
     }
+  }
+
+  .fa {
+    font-size: 28px;
+    vertical-align: middle;
+  }
+  .fa-twitter {
+    color: #55ACEE;
+  }
+  .fa-github {
+    color: #333;
+  }
+  .fa-instagram {
+    color: #3f729b;
   }
 }
 
@@ -422,4 +441,13 @@ article {
   text-align: center;
   display: block;
   width: 100%;
+}
+
+.year-group {
+  color: #888;
+}
+
+.rss-link {
+  float: right;
+  color: orange;
 }

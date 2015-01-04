@@ -3,13 +3,24 @@ layout: main
 title: Writing
 ---
 
-## Writing
+<h2>Writing <a class="rss-link" href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing."><i class="fa fa-rss-square"></i></a></h2>
 
 <div class="article-index">
-{% for post in site.posts %}
+{% for post in site.posts  %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+  {% if forloop.first %}
+    <h3 class="year-group" id="{{ this_year }}-ref">{{this_year}}</h3>
+  {% endif %}
+
   <div class="article-summary">
     <a href="{{ post.url }}">{{ post.title }}</a>
   </div>
+
+  {% if this_year != next_year %}
+    <h3 class="year-group" id="{{ next_year }}-ref">{{next_year}}</h3>
+  {% endif %}
 {% endfor %}
 </div>
 
