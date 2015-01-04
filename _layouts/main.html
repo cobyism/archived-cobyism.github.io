@@ -16,9 +16,9 @@
 
     <footer>
 
-      <p>Copyright © {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}">Coby&nbsp;Chapple</a>. All&nbsp;rights&nbsp;reserved.</p>
+      <p>Copyright © {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}" id="footer-home-link">Coby&nbsp;Chapple</a>. All&nbsp;rights&nbsp;reserved.</p>
 
-      <a href="https://twitter.com/{{ site.author.handle }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ site.author.handle }}</a>
+      <a href="https://twitter.com/{{ site.author.handle }}" class="twitter-follow-button" data-show-count="false" data-size="large" id="footer-twitter">Follow @{{ site.author.handle }}</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </footer>
 

@@ -3,7 +3,7 @@ layout: main
 title: Writing
 ---
 
-<h2>Writing <a class="rss-link" href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing."><i class="fa fa-rss-square"></i></a></h2>
+<h2>Writing <a class="rss-link" href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square"></i></a></h2>
 
 <div class="article-index">
 {% for post in site.posts  %}

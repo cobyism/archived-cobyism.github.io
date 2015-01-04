@@ -2,19 +2,19 @@
 
   <h1>
     <img src="{{ site.baseurl }}public/avatar.jpg" alt="@cobyism • Coby Chapple" width="36px">
-    <a href="{{ site.baseurl }}">{{ site.author.handle }}</a>
+    <a href="{{ site.baseurl }}" id="header-logo">{{ site.author.handle }}</a>
   </h1>
 
   <nav>
     <ul>
-      <li><a href="{{ site.baseurl }}writing/">Writing</a></li>
-      <li><a href="{{ site.baseurl }}talks/">Talks</a></li>
-      <li><a href="{{ site.baseurl }}about/">About</a></li>
+      <li><a href="{{ site.baseurl }}writing/" id="nav-writing">Writing</a></li>
+      <li><a href="{{ site.baseurl }}talks/" id="nav-talks">Talks</a></li>
+      <li><a href="{{ site.baseurl }}about/" id="nav-about">About</a></li>
       <li class="social">
-        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a>
+        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"  id="nav-twitter"><i class="fa fa-twitter" title="Twitter"></i></a>
       </li>
       <li class="social">
-        <a href="https://github.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-github" title="GitHub"></i></a>
+        <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github" title="GitHub"></i></a>
       </li>
     </ul>
   </nav>
