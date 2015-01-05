@@ -451,3 +451,123 @@ article {
   float: right;
   color: orange;
 }
+
+.talk-testimonial {
+  margin: 20px 0 30px;
+  padding: 0;
+
+  p {
+    margin: 0 0 10px;
+    line-height: 1.2em;
+    font-style: italic;
+    background: #eee;
+    padding: 1em;
+    border-radius: 5px;
+    position: relative;
+    font-size: 18px;
+
+    color: #664d00;
+    margin: 10px 0;
+    border: 1px solid #e8cd7d;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background-color: #fff2cc;
+    background-image: -moz-linear-gradient(#fff9e5, #fff2cc);
+    background-image: -webkit-linear-gradient(#fff9e5, #fff2cc);
+    background-image: -ms-linear-gradient(#fff9e5, #fff2cc);
+    background-image: -o-linear-gradient(#fff9e5, #fff2cc);
+    background-image: linear-gradient(#fff9e5, #fff2cc);
+    background-repeat: repeat-x;
+
+    &:before {
+      content: "“";
+      color: #c6a864;
+      font-size: 36px;
+      position: absolute;
+      top: 20px;
+      left: -16px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    &:after {
+      top: 100%;
+      left: 18px;
+      border: solid transparent;
+      content: "";
+      height: 0;
+      width: 0;
+      position: absolute;
+      border-top-color: #e8cd7d;
+      border-width: 8px;
+      margin-left: -8px;
+    }
+  }
+
+  cite {
+    font-style: normal;
+    position: relative;
+    padding-left: 36px;
+    padding-top: 6px;
+    display: block;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .author {
+    font-weight: bold;
+  }
+}
+
+.talk-list {
+  padding: 0;
+}
+
+.talk {
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1em;
+
+  h4 {
+    margin-bottom: 0;
+  }
+}
+
+.talk-meta,
+.talk-media {
+  color: #999;
+  font-size: 14px;
+
+  .talk-date {
+    min-width: 135px;
+  }
+
+  div {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .fa {
+    width: 20px;
+    text-align: center;
+    color: #666;
+  }
+}

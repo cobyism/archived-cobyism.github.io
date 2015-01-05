@@ -12,15 +12,31 @@ title: Talks
 </div>
 
 <div class="callout">
-  <h4>Each year, I accept a small number of speaking gigs.</h4>
-  <p>
-    Interested in having me speak at your event? <a href="mailto:{{ site.author.email }}">Get in touch</a>
-  </p>
+  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Get&nbsp;in&nbsp;touch</a></h4>
 </div>
+
+<blockquote class="talk-testimonial">
+  <p>Coby’s talk at <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a> was clear, insightful, and encouraging—<strong>a&nbsp;great way to&nbsp;close the&nbsp;conference</strong>.</p>
+  <cite><img class="avatar" src="https://github.com/JiggyPete.png"><a class="author" href="https://twitter.com/jiggy_pete" target="_blank">Peter Aitken</a>, organiser of <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a></cite>
+</blockquote>
 
 ### Past presentations
 
+<ul class="talk-list">
 {% for talk in site.data.talks reversed %}
-- **{{ talk.topic }}** @ {% if talk.event_url %}[{{ talk.event }}]({{ talk.event_url }}){% else %}{{ talk.event }}{% endif %}<br>
-  {{ talk.location }} — {{ talk.date }}{% if talk.slides %}<br>[Slides]({{ talk.slides }}) {% endif %}{% if talk.video %}[Video]({{ talk.video }}){% endif %}
+  <li class="talk">
+    <h4>{{ talk.topic }}</h4>
+    <div class="talk-meta">
+      <div class="talk-date"><i class="fa fa-calendar"></i> {{ talk.date | date: "%B, %Y" }}</div>
+      <div class="talk-event">
+        <i class="fa fa-map-marker"></i>
+        {% if talk.event_url %}<a href="{{ talk.event_url }}" target="_blank">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}
+      </div>
+    </div>
+    <div class="talk-media">
+      {% if talk.slides %}<div class="talk-slides"><i class="fa fa-film"></i> <a href="{{ talk.slides }}" target="_blank">Slides</a></div>{% endif %}
+      {% if talk.video %}<div class="talk-video"><i class="fa fa-video-camera"></i> <a href="{{ talk.video }}" target="_blank">Video</a></div>{% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>
