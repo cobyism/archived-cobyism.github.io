@@ -9,15 +9,15 @@ title: Home
 
 I believe:
 
-- Collaboration is powerful
-- Building software is inherently creative
-- Products should help people connect
+- Collaboration is **powerful**
+- **Working remotely** is the future
+- Products should help people **connect**
 
 I care about:
 
-- Building focused products
-- Designing approachable interfaces
-- Structuring information to encourage flow
+- Building **focused** products
+- Designing **approachable** interfaces
+- Structuring information to **encourage flow**
 
 I’m focused on making GitHub the most insanely useful developer tool on the planet. I’m learning a lot about technology, design, and working remotely along the way.
 
