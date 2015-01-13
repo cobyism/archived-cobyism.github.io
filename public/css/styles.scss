@@ -187,9 +187,9 @@ ul {
 
 .newsletter-form {
   margin: 1em auto 0;
-  border: 3px solid #d83;
+  border: 3px solid #44aa33;
   border-radius: 5px;
-  padding: 20px 30px;
+  padding: 10px 20px;
   text-align: center;
 
   .newsletter-form-heading {
@@ -207,17 +207,29 @@ ul {
 
   input,
   button {
-    display: block;
-    width: 100%;
+    display: inline-block;
     margin-bottom: 5px;
   }
+  input {
+    width: 60%;
+  }
   button {
+    width: 36%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   small {
     display: block;
     text-align: center;
     margin: .5em;
+  }
+}
+
+@media (max-width: 400px){
+  .newsletter-form {
+    input, button {
+      display: block;
+      width: 100%;
+    }
   }
 }
 
@@ -240,14 +252,14 @@ button,
 .button {
   outline: none;
   padding: 0.5em;
-  border: 1px solid #df913d;
+  border: 1px solid #2d7132;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   border-radius: 3px;
   font-weight: bold;
   color: #fff;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   /* text-transform: uppercase; */
-  @include gradient(#ffaf4b, #ff920a);
+  @include gradient(#9c0, #4b0);
 }
 
 .article-summary {
@@ -257,7 +269,7 @@ button,
 }
 
 .callout {
-  border: 3px solid #d83;
+  border: 3px solid #44aa33;
   border-radius: 5px;
   margin: 1em 0;
   padding: 1em;
