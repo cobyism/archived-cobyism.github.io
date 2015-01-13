@@ -1,9 +1,15 @@
 {% if page.title != "Thanks!" %}
 <form class="newsletter-form" action="//cobyism.us9.list-manage.com/subscribe/post?u=341a4fbf966755b040b1c9800&amp;id=bf12621953" method="post" target="_blank">
 
-  <div class="newsletter-form-heading">Want articles on remote&nbsp;working and&nbsp;design?</div>
+  <div class="newsletter-form-heading">
+    {% if page.is_post %}
+      Want more articles on remote&nbsp;working and&nbsp;design?
+    {% else %}
+      Interested in remote&nbsp;working and&nbsp;design?
+    {% endif %}
+  </div>
 
-  <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Your email address…">
+  <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email address…">
 
   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
   <div style="position: absolute; left: -5000px;"><input type="text" name="b_341a4fbf966755b040b1c9800_bf12621953" tabindex="-1" value=""></div>
