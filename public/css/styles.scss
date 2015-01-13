@@ -417,26 +417,6 @@ article {
   }
 }
 
-.tweet-button-experiment {
-  &.show-official {
-    .official-button {
-      display: block;
-    }
-    .custom-button {
-      display: none;
-    }
-  }
-
-  &.show-custom {
-    .custom-button {
-      display: block;
-    }
-    .official-button {
-      display: none;
-    }
-  }
-}
-
 .custom-tweet-button {
   text-align: center;
   display: block;
