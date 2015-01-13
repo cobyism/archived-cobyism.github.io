@@ -3,15 +3,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} • {{ site.description }}
-    {% elsif page.is_post %}
-      {{ page.title }}, by @{{ site.author.handle }}
-    {% else %}
-      {{ page.title }} • {{ site.title }}
-    {% endif %}
-  </title>
+  {% if page.title == "Home" %}
+    {% capture site_title %}{{ site.title }} • {{ site.description }}{% endcapture %}
+  {% elsif page.is_post %}
+    {% capture site_title %}{{ page.title }}, by @{{ site.author.handle }}{% endcapture %}
+  {% else %}
+    {% capture site_title %}{{ page.title }} • {{ site.title }}{% endcapture %}
+  {% endif %}
+
+  <title>{{ site_title }}</title>
+
+  {% if page.description %}
+    {% capture meta_description %}{{ page.description }}{% endcapture %}
+  {% else %}
+    {% capture meta_description %}{{ content }}{% endcapture %}
+  {% endif %}
+  <meta name="description" content="{{ meta_description | strip_html | truncatewords: 200 | strip_newlines | escape_once }}">
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}, coby chapple, cobyism, design blog, remote blog">
+  {% else %}
+    <meta name="keywords" content="coby chapple, cobyism, design blog, product design, github designer, design speaker, remote work, working remotely, open source design">
+  {% endif %}
+
+  <meta property="og:title" content="{{ site_title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:image" content="https://github.com/cobyism.png" />
 
   <script src="//cdn.optimizely.com/js/2350390699.js"></script>
   <script src="//load.sumome.com/" data-sumo-site-id="3b3cfd9a1eaaaa1cd4ee148ab8ba6c90cfd892a6dc59c35366ac1fc4d89cb593" async></script>
