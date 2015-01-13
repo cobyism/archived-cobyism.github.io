@@ -20,6 +20,11 @@ title: Talks
   <cite><img class="avatar" src="https://github.com/JiggyPete.png"><a class="author" href="https://twitter.com/jiggy_pete" target="_blank">Peter Aitken</a>, organiser of <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a></cite>
 </blockquote>
 
+<blockquote class="talk-testimonial">
+  <p>Coby is a great speaker, very natural yet also&nbsp;prepared. <strong>I’d&nbsp;love to have him speak again</strong> at my next&nbsp;event.</p>
+  <cite><img class="avatar" src="https://pbs.twimg.com/profile_images/1271143894/good-headshot-big_normal.jpg"><a class="author" href="https://twitter.com/paulfedory" target="_blank">Paul Fedory</a>, organiser of <a href="http://devslovebacon.com/" target="_blank">BACON</a></cite>
+</blockquote>
+
 ### Past presentations
 
 <ul class="talk-list">
