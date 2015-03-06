@@ -10,6 +10,9 @@ permalink: /blog/:title/
 baseurl: /
 url: http://cobyism.com
 highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [with_toc_data]
 
 gems:
 - jekyll-mentions
