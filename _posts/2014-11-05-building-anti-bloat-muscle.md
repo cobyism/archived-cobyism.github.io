@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building anti-bloat muscle
+bg: "#3a6d10;"
 ---
 
 One of the best ways to fight getting soft around the middle is to get to the gym—or do other activities like outdoor sports—on a regular basis. By slowly burning away the squidgy bits, you build habits and muscle that will help you stay in shape in the future.

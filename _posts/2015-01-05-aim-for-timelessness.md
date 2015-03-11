@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Aim for timelessness
+bg: "#0bf"
 ---
 
 It’s almost a cliche thing to say, but I believe that the things that draw people in, that inspire new ideas, and that effectively connect people to one another share one important quality—they’re timeless.
@@ -18,6 +19,3 @@ If your thing is built with only the current trends in mind, then in two years t
 Aren’t there far more important things that both you and other people should be dedicating their time, money, and effort towards than redesigning your thing again because it’s no longer in-line with the current trends?
 
 Don’t be like the politicians. Aim for timelessness.
-
-
-

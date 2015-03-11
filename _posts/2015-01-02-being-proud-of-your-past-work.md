@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Being proud of your past work
+title: Being proud of your past&nbsp;work
+bg: "#837"
 ---
 
 It’s a new year, and for many of us that means taking a look back at what you’ve done over the last year. Problem is, it’s easy for this to quickly fill you with negativity.

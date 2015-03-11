@@ -1,6 +1,7 @@
 ---
 title: The Burnout Equation
 layout: post
+bg: "#d83;"
 ---
 
 Let’s take a minute to talk about [burnout](http://en.wikipedia.org/wiki/Burnout_%28psychology%29). The reason burnout is so insidious is that the higher your stress levels rise, the easier it is to bury your head in the sand and keep on keeping on in the hope that throwing more hours, more focus, and more energy at the situation will make all your problems go away. As anyone who’s been through burnout will tell you though, it simply doesn’t work that way.

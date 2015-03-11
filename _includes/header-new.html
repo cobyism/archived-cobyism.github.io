@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    * {
+      font-family: "Proxima Nova";
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    header {
+      background: #d83;
+      color: #fff;
+      text-align: center;
+    }
+
+    header .wrap {
+      padding: 0 1em;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #fff;
+      padding: 1rem .25rem;
+    }
+
+    header ul {
+      padding: 0;
+      display: inline-block;
+    }
+
+    header li {
+      display: inline-block;
+      list-style-type: none;
+    }
+
+    header a:hover {
+      background: rgba(255,255,255,.2);
+      /* box-shadow: inset 0 -3px 0 #c73; */
+    }
+
+    header .twitter a:hover {
+      box-shadow: inset 0 -3px 0 #55acee;
+    }
+
+    header .github a:hover {
+      box-shadow: inset 0 -3px 0 #222;
+    }
+
+    header li.selected a {
+      box-shadow: inset 0 -3px 0 #c00;
+    }
+
+    .wrap {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  </style>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <nav>
+        <ul>
+          <li class="selected"><a href="#"><strong>cobyism</strong></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Writing</a></li>
+          <li><a href="#">Talks</a></li>
+          <li class="social twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="social github"><a href="#"><i class="fa fa-github"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 layout: post
 title: Open Source needs a new UI
 hacker_news: https://news.ycombinator.com/item?id=3331813
+bg: "#686260;"
 ---
 
 As a freelance web developer, I’ve seen

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proving taste
+bg: "#6d0f2d;"
 ---
 
 We’re currently (Oct 2014, for people reading this in future) looking to hire [for product design](https://jobs.github.com/positions/cec0b09e-5590-11e4-9b36-8b1b5efc4d04) at GitHub, and in that context, someone recently asked me:

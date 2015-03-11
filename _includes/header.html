@@ -1,22 +1,20 @@
-<header class="animated fadeIn">
-
-  <h1>
-    <img src="{{ site.baseurl }}public/avatar.jpg" alt="@cobyism • Coby Chapple" width="36px">
-    <a href="{{ site.baseurl }}" id="header-logo">{{ site.author.handle }}</a>
-  </h1>
-
-  <nav>
-    <ul>
-      <li><a href="{{ site.baseurl }}writing/" id="nav-writing">Writing</a></li>
-      <li><a href="{{ site.baseurl }}talks/" id="nav-talks">Talks</a></li>
-      <li><a href="{{ site.baseurl }}about/" id="nav-about">About</a></li>
-      <li class="social">
-        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"  id="nav-twitter"><i class="fa fa-twitter" title="Twitter"></i></a>
-      </li>
-      <li class="social">
-        <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github" title="GitHub"></i></a>
-      </li>
-    </ul>
-  </nav>
-
+<header>
+  <div class="wrap">
+    <h1>
+      <a href="{{ site.baseurl }}" id="header-logo" class="{% if page.title == 'Home' %}selected{% endif %}">{{ site.author.handle }}</a>
+    </h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="{{ site.baseurl }}writing/" class="{% if page.title == 'Writing' %}selected{% endif %}" id="nav-writing">Writing</a></li>
+        <li><a href="{{ site.baseurl }}talks/" class="{% if page.title == 'Talks' %}selected{% endif %}" id="nav-talks">Talks</a></li>
+        <li><a href="{{ site.baseurl }}about/" class="{% if page.title == 'About' %}selected{% endif %}" id="nav-about">About</a></li>
+        <li class="social social-twitter">
+          <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter" title="Twitter"></i></a>
+        </li>
+        <li class="social social-gh">
+          <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github" title="GitHub"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>

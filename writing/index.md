@@ -15,7 +15,10 @@ title: Writing
   {% endif %}
 
   <div class="article-summary">
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}" {% if post.bg %}style="background-color: {{ post.bg }};"{% endif %}>
+      {{ post.title }}
+      <span class="post-meta">{{ post.date | date: '%B, %Y' }}</span>
+    </a>
   </div>
 
   {% if this_year != next_year %}
@@ -29,7 +32,10 @@ title: Writing
 <div class="article-index">
 {% for post in site.data.github_blog_posts %}
   <div class="article-summary">
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}" {% if post.bg %}style="background-color: {{ post.bg }};"{% endif %}>
+      {{ post.title }}
+      <span class="post-meta">{{ post.date | date: '%B, %Y' }}</span>
+    </a>
   </div>
 {% endfor %}
 </div>

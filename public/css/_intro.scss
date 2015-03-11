@@ -1,0 +1,28 @@
+.intro {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+
+  .avatar {
+    $size: 6rem;
+    width: $size;
+    height: $size;
+  }
+
+  strong {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  @include min-width(700px) {
+    font-size: 1.5rem;
+    text-align: center;
+
+    .avatar {
+      $size: 10rem;
+      width: $size;
+      height: $size;
+    }
+  }
+}

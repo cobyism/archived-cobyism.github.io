@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A remote state of mind
+bg: "#118;"
 ---
 
 <blockquote class="twitter-tweet tw-align-center" lang="en"><p>Today’s office: fireside. <a href="http://t.co/leuL67KqmM">pic.twitter.com/leuL67KqmM</a></p>&mdash; Coby Chapple (@cobyism) <a href="https://twitter.com/cobyism/status/544515995411677186">December 15, 2014</a></blockquote>

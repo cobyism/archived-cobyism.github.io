@@ -1,6 +1,7 @@
 ---
 title: Interfaces all the way down
 layout: post
+bg: "#4b3c56;"
 ---
 
 If your job involves designing interfaces for the web, it’s easy to think that the interfaces you work on are experienced in isolation, but that’s almost never the case.

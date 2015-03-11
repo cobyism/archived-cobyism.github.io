@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thoughts on in-browser design
+bg: "#0e7c9d;"
 ---
 
 # In-browser design
