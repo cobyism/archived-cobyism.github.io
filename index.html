@@ -19,7 +19,7 @@ title: Home
 
 <div class="article-index">
 {% for post in site.posts limit: 3 %}
-  <div class="article-summary">
+  <div class="article-summary article-coloured">
     <a href="{{ post.url }}" {% if post.bg %}style="background-color: {{ post.bg }};"{% endif %}>
       {{ post.title }}
       <span class="post-meta">{{ post.date | date: '%B, %Y' }}</span>
