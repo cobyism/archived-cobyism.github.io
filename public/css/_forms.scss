@@ -1,0 +1,89 @@
+.newsletter-form {
+  margin: 1rem auto 0;
+  border: 1px solid rgba(0,0,0,.3);
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  border-radius: 5px;
+  padding: 15px 20px 10px;
+  text-align: center;
+  position: relative;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: url('../airmail.png') -15px repeat;
+    background-size: 80px 5px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .newsletter-form-heading {
+    text-align: center;
+    margin: .5em 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin: .5em 0;
+    color: #666;
+    line-height: 1em;
+  }
+
+  input,
+  button {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 60%;
+  }
+  button {
+    width: 36%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  small {
+    display: block;
+    text-align: center;
+    margin: .5em;
+  }
+}
+
+@media (max-width: 400px){
+  .newsletter-form {
+    input, button {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  &:focus {
+    border: 1px solid #0bf;
+    box-shadow: 0 0 3px #0bf;
+  }
+}
+
+button,
+.button {
+  outline: none;
+  padding: 0.5em;
+  border: 1px solid #2d7132;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  /* text-transform: uppercase; */
+  @include gradient(#9c0, #4b0);
+}

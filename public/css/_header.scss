@@ -1,0 +1,44 @@
+header {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-right: .75rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .fa {
+    font-size: 28px;
+    vertical-align: middle;
+  }
+  .fa-twitter {
+    color: #55ACEE;
+  }
+  .fa-github {
+    color: #333;
+  }
+  .fa-instagram {
+    color: #3f729b;
+  }
+}
+
+@media (min-width: 36em) {
+  header {
+    text-align: right;
+
+    .site-title {
+      float: left;
+    }
+  }
+}
