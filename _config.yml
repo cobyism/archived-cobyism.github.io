@@ -15,6 +15,9 @@ markdown: redcarpet
 redcarpet:
   extensions: [with_toc_data, footnotes]
 
+sass:
+  sass_dir: public/css
+
 gems:
 - jekyll-mentions
 - jekyll-redirect-from

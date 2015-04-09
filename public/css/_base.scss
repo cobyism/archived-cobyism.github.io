@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: .75rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+  color: #2A5DB0; // Gmail: #2A5DB0, Google: #2200CC
+}
+
+ul {
+  padding-left: 20px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  margin: 2em 0;
+  font-size: .8em;
+}

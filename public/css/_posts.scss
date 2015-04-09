@@ -1,0 +1,111 @@
+.article-index {
+  margin-bottom: .25rem;
+}
+
+.post-summary {
+  display: block;
+  padding-bottom: .5rem;
+
+  .post-meta {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+  }
+}
+
+article {
+  .post-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .post-title {
+    margin: 0;
+  }
+  .post-meta {
+    color: #999;
+    margin-top: .5rem;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 1em 0 1em 1.5em;
+    font-style: italic;
+    border-left: 5px solid #bbb;
+    p {
+      margin: 0;
+    }
+  }
+
+  .post-footer {
+    border-top: 1px solid #eee;
+    margin-top: 1em;
+    padding-top: 1em;
+    text-align: center;
+  }
+}
+
+.post-author-info {
+  border-top: 1px solid #eee;
+  margin: 1rem 0 2rem;
+  padding-top: 1rem;
+  overflow: hidden;
+  text-align: center;
+
+  .avatar {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
+
+  .text {
+    display: block;
+
+    h4,
+    p {
+      font-size: 80%;
+      line-height: 1.4em;
+      margin: 0;
+    }
+  }
+
+  .bio {
+    margin: 0.5em 0;
+  }
+}
+
+@media (min-width: 500px){
+  .post-author-info {
+    text-align: left;
+
+    .avatar {
+      float: left;
+    }
+    .text {
+      float: left;
+      width: 76%;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .post-author-info {
+    .text {
+      width: 76%;
+    }
+  }
+}
+
+.year-group {
+  color: #888;
+  margin-top: .5rem;
+  font-size: 70%;
+}
+
+.rss-link {
+  vertical-align: middle;
+  font-size: 1rem;
+  margin-left: .25rem;
+  color: orange;
+}

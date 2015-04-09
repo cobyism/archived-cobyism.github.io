@@ -1,0 +1,44 @@
+---
+layout: main
+title: Talks
+---
+
+<h2>Talks</h2>
+
+<p>
+  I frequently deliver talks and workshops about working remotely, product design, and open source at a wide variety of events.
+  If&nbsp;you’re looking for a speaker for your event, please <a href="mailto:{{ site.author.email }}">get&nbsp;in&nbsp;touch</a>.
+</p>
+
+<blockquote class="talk-testimonial">
+  <p>Coby’s talk at <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a> was clear, insightful, and encouraging—<strong>a&nbsp;great way to&nbsp;close the&nbsp;conference</strong>.</p>
+  <cite><img class="avatar" src="https://github.com/JiggyPete.png"><a class="author" href="https://twitter.com/jiggy_pete" target="_blank">Peter Aitken</a>, organiser of <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a></cite>
+</blockquote>
+
+<blockquote class="talk-testimonial">
+  <p>Coby is a great speaker, very natural yet also&nbsp;prepared. <strong>I’d&nbsp;love to have him speak again</strong> at my next&nbsp;event.</p>
+  <cite><img class="avatar" src="https://pbs.twimg.com/profile_images/1271143894/good-headshot-big_normal.jpg"><a class="author" href="https://twitter.com/paulfedory" target="_blank">Paul Fedory</a>, organiser of <a href="http://devslovebacon.com/" target="_blank">BACON</a></cite>
+</blockquote>
+
+<h2>Past presentations</h2>
+
+<div class="talk-list">
+{% for talk in site.data.talks reversed %}
+  <div class="talk">
+    <div class="talk-title">{{ talk.topic }}</div>
+    <div class="talk-meta">
+      <span class="talk-date">{{ talk.date | date: "%B, %Y" }}</span> ·
+      <span class="talk-event">
+        {% if talk.event_url %}<a href="{{ talk.event_url }}" target="_blank">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}
+      </span>
+      {% if talk.slides %}· <span class="talk-slides"><a href="{{ talk.slides }}" target="_blank">Slides</a></span>{% endif %}
+      {% if talk.video %}· <span class="talk-video"><a href="{{ talk.video }}" target="_blank">Video</a></span>{% endif %}
+    </div>
+    {% if talk.embed %}<div class="talk-embed">{{ talk.embed }}</div>{% endif %}
+  </div>
+{% endfor %}
+</div>
+
+<div class="callout">
+  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Send me&nbsp;an&nbsp;email</a></h4>
+</div>
