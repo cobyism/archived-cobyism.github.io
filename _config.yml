@@ -17,6 +17,8 @@ redcarpet:
 
 sass:
   sass_dir: public/css
+  
+exclude: [vendor]
 
 gems:
 - jekyll-mentions
