@@ -3,12 +3,14 @@
   event_url: http://refreshbelfast.com/
   date: 9 August 2013
   slides: https://speakerdeck.com/cobyism/design-in-the-realm-of-open-source
+  embed: <script async class="speakerdeck-embed" data-id="15f12190eb530130912a4a0ad2fa1297" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 - topic: Jekyll and GitHub Pages
   event: Belfast Ruby
   event_url: http://belfastruby.com/
   date: 4 March 2014
   slides: https://speakerdeck.com/cobyism/jekyll-and-github-pages-belfast-ruby-number-12
+  embed: <script async class="speakerdeck-embed" data-id="b918507086700131b8ae6a178edc0686" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 - topic: How design happens at GitHub
   event: ScotlandJS
@@ -17,6 +19,7 @@
   date: 9 May 2014
   slides: https://speakerdeck.com/cobyism/how-design-happens-at-github-scotlandjs-2014
   video: http://vimeo.com/96430140
+  embed: <script async class="speakerdeck-embed" data-id="e9deedb0ba8f0131591e7adb46f8c051" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 - topic: Remote by default
   event: BACON
@@ -25,13 +28,15 @@
   date: 16 May 2014
   slides: https://speakerdeck.com/cobyism/remote-by-default-bacon-2014
   video: http://devslovebacon.com/conferences/bacon-2014/talks/remote-by-default-how-github-makes-working-remotely-not-suck
+  embed: <script async class="speakerdeck-embed" data-id="d6a753b0bf340131ae3666fdbbb32492" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-- topic: How GitHub Works (keynote)
+- topic: How GitHub Works
   event: GitHub Kaigi
   event_url: http://githubkaigi.org/
   location: Japan
   date: 1 June 2014
   slides: https://speakerdeck.com/cobyism/how-github-works-github-kaigi-tokyo-2014
+  embed: <script async class="speakerdeck-embed" data-id="eb0cf950cb8c01310e9a6a5281375720" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 - topic: How GitHub Works / Design at GitHub
   event: Kyoto University Design School
@@ -49,3 +54,4 @@
   location: Glasgow
   date: 15 August 2014
   slides: https://speakerdeck.com/cobyism/static-sites-with-jekyll-and-github-pages
+  embed: <script async class="speakerdeck-embed" data-id="27cf2920068e013258d3029fef629589" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

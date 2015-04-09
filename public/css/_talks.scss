@@ -49,6 +49,7 @@
     padding-left: 36px;
     padding-top: 6px;
     display: block;
+    font-size: 16px;
   }
 
   .avatar {
@@ -67,40 +68,23 @@
   }
 }
 
-.talk-list {
-  padding: 0;
-}
-
 .talk {
-  list-style-type: none;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 1em;
+  margin-bottom: 1rem;
 
-  h4 {
-    margin-bottom: 0;
+  .talk-title {
+    font-weight: bold;
+  }
+
+  .talk-meta {
+    font-size: .75rem;
+    color: #999;
+  }
+
+  .talk-embed {
+    margin-top: .5rem;
   }
 }
 
-.talk-meta,
-.talk-media {
-  color: #999;
-  font-size: 14px;
-
-  .talk-date {
-    min-width: 135px;
-  }
-
-  div {
-    display: inline-block;
-    margin-right: 5px;
-  }
-
-  .fa {
-    width: 20px;
-    text-align: center;
-    color: #666;
-  }
-}
 
 .callout {
   border: 3px solid #44aa33;

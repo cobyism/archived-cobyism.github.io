@@ -3,17 +3,12 @@ layout: main
 title: Talks
 ---
 
-<div class="align-center">
-  <a href="https://www.flickr.com/photos/ambientideas/14143168310" title="Coby Chapple presenting at GitHub Kaigi in Tokyo, Japan by Jordan McCullough, on Flickr"><img src="https://farm3.staticflickr.com/2940/14143168310_47d63bc5e3_m.jpg" width="180" height="120" alt="_91C0175.jpg" target="_blank"></a>
-  <a href="https://www.flickr.com/photos/fillyc/9573957691" title="Refresh Belfast - Coby Chapple of GitHub by Filly Campbell, on Flickr"><img src="https://farm4.staticflickr.com/3670/9573957691_85ba9b099d_m.jpg" width="180" height="120" alt="Refresh Belfast - Coby Chapple of GitHub" target="_blank"></a>
-  <a href="https://www.flickr.com/photos/fillyc/9573953683" title="Refresh Belfast - Coby Chapple of GitHub by Filly Campbell, on Flickr"><img src="https://farm4.staticflickr.com/3816/9573953683_88887130e0_m.jpg" width="180" height="120" alt="Refresh Belfast - Coby Chapple of GitHub" target="_blank"></a>
-</div>
+<h2>Talks</h2>
 
-<div class="callout">
-  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Get&nbsp;in&nbsp;touch</a></h4>
-</div>
-
-<h4>What organizers are saying</h4>
+<p>
+  I frequently deliver talks and workshops about working remotely, product design, and open source at a wide variety of events.
+  If&nbsp;you’re looking for a speaker for your event, please <a href="mailto:{{ site.author.email }}">get&nbsp;in&nbsp;touch</a>.
+</p>
 
 <blockquote class="talk-testimonial">
   <p>Coby’s talk at <a href="http://scotlandjs.com/" target="_blank">ScotlandJS</a> was clear, insightful, and encouraging—<strong>a&nbsp;great way to&nbsp;close the&nbsp;conference</strong>.</p>
@@ -27,21 +22,23 @@ title: Talks
 
 <h2>Past presentations</h2>
 
-<ul class="talk-list">
+<div class="talk-list">
 {% for talk in site.data.talks reversed %}
-  <li class="talk">
-    <h4>{{ talk.topic }}</h4>
+  <div class="talk">
+    <div class="talk-title">{{ talk.topic }}</div>
     <div class="talk-meta">
-      <div class="talk-date"><i class="fa fa-calendar"></i> {{ talk.date | date: "%B, %Y" }}</div>
-      <div class="talk-event">
-        <i class="fa fa-map-marker"></i>
+      <span class="talk-date">{{ talk.date | date: "%B, %Y" }}</span> ·
+      <span class="talk-event">
         {% if talk.event_url %}<a href="{{ talk.event_url }}" target="_blank">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}
-      </div>
+      </span>
+      {% if talk.slides %}· <span class="talk-slides"><a href="{{ talk.slides }}" target="_blank">Slides</a></span>{% endif %}
+      {% if talk.video %}· <span class="talk-video"><a href="{{ talk.video }}" target="_blank">Video</a></span>{% endif %}
     </div>
-    <div class="talk-media">
-      {% if talk.slides %}<div class="talk-slides"><i class="fa fa-film"></i> <a href="{{ talk.slides }}" target="_blank">Slides</a></div>{% endif %}
-      {% if talk.video %}<div class="talk-video"><i class="fa fa-video-camera"></i> <a href="{{ talk.video }}" target="_blank">Video</a></div>{% endif %}
-    </div>
-  </li>
+    {% if talk.embed %}<div class="talk-embed">{{ talk.embed }}</div>{% endif %}
+  </div>
 {% endfor %}
-</ul>
+</div>
+
+<div class="callout">
+  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Send me&nbsp;an&nbsp;email</a></h4>
+</div>
