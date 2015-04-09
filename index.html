@@ -13,24 +13,20 @@ title: Home
   </p>
 </div>
 
-<h3>Writing <a class="rss-link" href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square"></i></a></h3>
+<h3>Latest articles <a class="rss-link" href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square"></i></a></h3>
 
 <div class="article-index">
-{% for post in site.posts  %}
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-  {% if forloop.first %}
-    <h4 class="year-group" id="{{ this_year }}-ref">{{this_year}}</h4>
-  {% endif %}
-
+{% for post in site.posts | limit: 5  %}
   <div class="post-summary">
     <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-    <span class="post-meta">{{ post.date | date: '%e %B, %Y' }}</span>
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date: '%e %B, %Y' }}</span>
+      ·
+      {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
+      <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
+    </div>
   </div>
-
-  {% if this_year != next_year %}
-    <h4 class="year-group" id="{{ next_year }}-ref">{{next_year}}</h4>
-  {% endif %}
 {% endfor %}
+
+  <a href="{{ site.baseurl }}writing/" id="homepage-readmore">More articles &raquo;</a>
 </div>

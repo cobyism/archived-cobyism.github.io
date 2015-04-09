@@ -7,7 +7,12 @@ is_post: true
 
   <div class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <span class="post-meta">{{ page.date | date: '%B, %Y' }}</span>
+    <div class="post-meta">
+      <span class="post-date">{{ page.date | date: '%e %B, %Y' }}</span>
+      ·
+      {% assign readtime = content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
+      <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
+    </div>
   </div>
 
   <div class="post-content">
