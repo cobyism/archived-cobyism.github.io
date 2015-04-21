@@ -21,7 +21,7 @@ It’s *almost impossible* to retrofit the idea of embracing remote work onto a 
 
 Often what happens is that when a company that hasn’t traditionally been distributed wants to test the water, they volunteer one person or one team to "try out this remote thing". This person is who I call the "remote guinea pig", and it’s important to understand that this is a natural reaction for most companies. Whenever you’re unsure how something will work, the last thing you want to do is commit everything you have, right?
 
-You absolutely don’t want to be the "remote guinea pig" though, and here’s why. The tricky thing is that in order for remote to be successful, it’s not just the people that are going remote that have to change. Every single relationship and communication those people have with other parts of the company must accommodate this new dynamic to.
+You absolutely don’t want to be the "remote guinea pig" though, and here’s why. The tricky thing is that in order for remote to be successful, it’s not just the people that are going remote that have to change. Every single relationship and communication those people have with other parts of the company must accommodate this new dynamic too.
 
 ## Guinea pigs are cute, but you don’t want to be one
 
