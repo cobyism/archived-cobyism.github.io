@@ -42,7 +42,7 @@ In an ideal world we’d recognise burnout approaching far enough in advance to 
 
 ### Get better at saying no
 
-Whether it’s unreasonable expectations, tight timelines, or even commitments that are perfectly achievable, saying no helps stops things accumulating on your plate in the first place. You should be especially wary of accepting tasks that seem like they’ll be unrealistic (or even just not enjoyable) from the outset, but even tasks you enjoy can contribute to the number of open loops you have to manage any any one time, and that extra mental overhead is the last thing you need when you’re getting burnt out.
+Whether it’s unreasonable expectations, tight timelines, or even commitments that are perfectly achievable, saying no helps stops things accumulating on your plate in the first place. You should be especially wary of accepting tasks that seem like they’ll be unrealistic (or even just not enjoyable) from the outset, but even tasks you enjoy can contribute to the number of open loops you have to manage at any one time, and that extra mental overhead is the last thing you need when you’re getting burnt out.
 
 ### Talk to people
 
@@ -66,7 +66,7 @@ I don’t know what it is that you’re feeling, but the most useful thing you c
 
 Pressure cookers have [safety valves](http://www.unitedcooker.com/parts-of-pressure-cooker) for a reason, so find a way to let some of the steam to escape. If the pressure in your situation is external, speak frankly to the people from whom the pressure is coming from about the way it’s affecting you. Try and find out the background context that’s causing the pressure in the first place. It’s entirely possible that they may not realise the toll it’s taking on you.
 
-If the pressure is self-induced, that can sometimes be much harder to defuse, because it’s much more difficult to stay objective about the forces at play. One thing that I’ve found helpful is to run my internal expectations past someone else as a sanity check. Sometimes having someone tell you that something you expect of yourself is bat-shit-crazy really does put things in perspective and act as a circuit-breaker. Again, talking to people helps more that you probably think.
+If the pressure is self-induced, that can sometimes be much harder to defuse, because it’s much more difficult to stay objective about the forces at play. One thing that I’ve found helpful is to run my internal expectations past someone else as a sanity check. Sometimes having someone tell you that something you expect of yourself is bat-shit-crazy really does put things in perspective and act as a circuit-breaker. Again, talking to people helps more than you probably think.
 
 ## End of the line
 
