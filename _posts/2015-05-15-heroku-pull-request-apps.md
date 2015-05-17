@@ -19,7 +19,7 @@ This is where Heroku’s new [Pull Request Apps](https://devcenter.heroku.com/ar
 
 The way Pull Request Apps work is as simple. When you enable it in your dashboard, Heroku sets up a [webhook](https://developer.github.com/webhooks/) on your chosen GitHub repository, which gets triggered each time a pull request is created (or updated with new commits). Heroku then pulls the latest code from that pull request’s branch, and uses the [`app.json` file](https://devcenter.heroku.com/articles/app-json-schema) in your repository’s root directory to configure a new, temporary Heroku application with the environment and resources it needs to run. When it’s up and running, Heroku updates the pull request on GitHub with a deployment event (using our [Deployments API](https://developer.github.com/v3/repos/deployments/), containing a clickable link that takes you to the URL of the temporary Heroku application.
 
-![Heroku Pull Request App Deployed!](http://f.cl.ly/items/0C0l46423q1h0J2p3X3J/2015-05-17%20at%203.33%20pm.png)
+![Heroku Pull Request App Deployed!](http://f.cl.ly/items/0E1e3w060G2b422d0j0u/2015-05-17%20at%203.46%20pm.png)
 
 As an example, check out [the pull request](https://github.com/cobyism/cobyism.github.io/pull/7) I opened to add this post to my blog (meta, right?). While the version of my site you’re reading now is hosted with [GitHub Pages](https://pages.github.com/), I also have a Heroku application set up to mirror the site, and it’s configured so that a Pull Request app is created anytime a PR is opened on the GitHub repository. So, as you can see, Heroku spun up an app called `cobyism-com-pr-7.herokuapp.com` and updated the PR with a link for me to click through. Neat, huh!
 
