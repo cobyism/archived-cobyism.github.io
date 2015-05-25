@@ -27,7 +27,7 @@ The book I’m putting together is going to cover all of the main points along t
 
 ## Progress and timelines
 
-As far as actual content goes, it’s coming along nicely. Since I haven’t done this before, my estimates are probably going to off no matter how I do it, but if I had to hazard a guess I’d say I’m approximately 50% done with the actual content of the book. I’ve thrown together [a simple landing page](http://cobyism.com/remotejobseeker) so that anyone who’s interested can begin signing up, and I plan to keep other aspects of the marketing, distribution, etc. fairly lightweight, so I’m hopeful that there won’t be too many obstacles in the way of this getting :ship:ed.
+As far as actual content goes, it’s coming along nicely. Since I haven’t done this before, my estimates are probably going to be off no matter how I do it, but if I had to hazard a guess I’d say I’m approximately 50% done with the actual content of the book. I’ve thrown together [a simple landing page](http://cobyism.com/remotejobseeker) so that anyone who’s interested can begin signing up, and I plan to keep other aspects of the marketing, distribution, etc. fairly lightweight, so I’m hopeful that there won’t be too many obstacles in the way of this getting :ship:ed.
 
 As far as timelines go, I’m going to draw a line in the sand and say that this will ship within two months of today. For anyone playing along at home, that’s July 25th, 2015, which could end up being a very naive deadline to set myself considering I have three weeks worth of international travel to do spread throughout that period, as well as moving house (I’m moving to Scotland!). :sweat_smile: is without a doubt the emoji that best represents how I feel about this.
 
