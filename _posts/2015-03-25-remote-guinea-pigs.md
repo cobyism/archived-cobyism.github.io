@@ -5,7 +5,7 @@ layout: post
 
 _**or… Why convincing your boss to let you go remote is probably a terrible idea.**_
 
-Recently I wrote a post called [Going remote: the freelance option](http://cobyism.com/blog/being-proud-of-your-past-work/), so today I thought I’d follow up with some thoughts on one of the many other ways people suggest for making the transition to working remotely: going remote at your *current job*. Why go through all the hassle of searching for a new job, rejigging your resume, running the interview gauntlet, and so forth if you can just… stay where you are?
+Recently I wrote a post called [Going remote: the freelance option](http://cobyism.com/blog/go-remote-the-freelance-option/), so today I thought I’d follow up with some thoughts on one of the many other ways people suggest for making the transition to working remotely: going remote at your *current job*. Why go through all the hassle of searching for a new job, rejigging your resume, running the interview gauntlet, and so forth if you can just… stay where you are?
 
 I understand why this is a tempting idea for many people, however there’s a few things you may not have considered. I’ve never been in a position where I’ve had to try and convince my boss to let me go remote, so take this all with a grain of salt, but having worked remotely in a number of different scenarios I’d like to share a few reasons why I think you should be wary of taking the "convince your boss" route.
 
