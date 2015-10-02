@@ -9,7 +9,7 @@ Hi there! I’m Coby Chapple. I work on product at [GitHub](https://github.com),
 
 Outside of my work I enjoy [photography](https://instagram.com/cobyism), mountain biking, and generally being active. In various past lives I’ve been a hip-hop teacher, competitive breakdancer, gold-medal barbershop singer, and 11 time national modern jive champion. I have a fairly fierce competitive streak.
 
-I’m originally from [New Zealand](http://cl.ly/ac0r), and also lived in [Australia](http://cl.ly/abvL) for over a decade too, before moving to the UK in 2012. I mostly work from my home near Belfast, in [Northern Ireland](http://cl.ly/acGZ).
+I’m originally from [New Zealand](http://cl.ly/ac0r), and also lived in [Australia](http://cl.ly/abvL) for over a decade too, before moving to the UK in 2012. I mostly work from my home Perthshire, Scotland. It's beautiful here. You should visit.
 
 Connect elsewhere:
 
