@@ -22,15 +22,22 @@ header {
     font-size: 28px;
     vertical-align: middle;
   }
-  .fa-twitter {
-    color: #55ACEE;
-  }
-  .fa-github {
-    color: #333;
-  }
-  .fa-instagram {
-    color: #3f729b;
-  }
+}
+
+.icon-twitter {
+  color: #55ACEE;
+}
+
+.icon-github {
+  color: #333;
+}
+
+.icon-instagram {
+  color: #3f729b;
+}
+
+.icon-rss {
+  color: orange;
 }
 
 @media (min-width: 36em) {

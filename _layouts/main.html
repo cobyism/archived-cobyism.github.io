@@ -18,8 +18,17 @@
 
       <p>Copyright © {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}" id="footer-home-link">Coby&nbsp;Chapple</a>. All&nbsp;rights&nbsp;reserved.</p>
 
-      <a href="https://twitter.com/{{ site.author.handle }}" class="twitter-follow-button" data-show-count="false" data-size="large" id="footer-twitter">Follow @{{ site.author.handle }}</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <ul class="social-links">
+        <li class="social">
+          <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"  id="footer-twitter"><i class="fa fa-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="footer-github"><i class="fa fa-github" title="@{{ site.author.handle }} on GitHub"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://instagram.com/{{ site.author.handle }}" target="_blank" id="footer-instagram"><i class="fa fa-instagram" title="@{{ site.author.handle }} on Instagram"></i></a>
+        </li>
+      </ul>
     </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -29,6 +38,18 @@
           return Math.round(parseFloat(value));
         });
       });
+    </script>
+
+    <script type="text/javascript" src="{{ site.baseurl }}public/script/instafeed.min.js"></script>
+    <script type="text/javascript">
+      var userFeed = new Instafeed({
+        get: 'user',
+        userId: 185695,
+        accessToken: '185695.467ede5.cf3fee3f9b0c4253bfb54d2422e24cae',
+        resolution: 'standard_resolution',
+        limit: '4'
+      });
+      userFeed.run();
     </script>
 
   </div>

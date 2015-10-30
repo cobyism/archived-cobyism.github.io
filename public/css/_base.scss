@@ -47,6 +47,21 @@ footer {
   color: #888;
   margin: 2em 0;
   font-size: .8em;
+
+  .social-links li {
+    list-style: none;
+    display: inline-block;
+    margin-right: .75rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: 28px;
+      vertical-align: middle;
+    }
+  }
 }
 
 p code {
@@ -95,4 +110,10 @@ kbd {
     margin-right: -10px;
     margin-left: 5px;
   }
+}
+
+h3 .fa {
+  vertical-align: middle;
+  font-size: 1rem;
+  margin-left: .25rem;
 }

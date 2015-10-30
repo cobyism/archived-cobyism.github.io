@@ -1,6 +1,6 @@
 <header>
   <h3 class="site-title">
-    <img src="{{ site.baseurl }}public/avatar.jpg" alt="@cobyism • Coby Chapple" width="28px" class="avatar">
+    <img src="{{ site.baseurl }}public/avatar.png" alt="@cobyism • Coby Chapple" width="28px" class="avatar">
     <a href="{{ site.baseurl }}" id="header-logo">{{ site.author.handle }}</a>
   </h3>
   <nav>
@@ -9,10 +9,13 @@
       <li><a href="{{ site.baseurl }}talks/" id="nav-talks">Talks</a></li>
       <li><a href="{{ site.baseurl }}about/" id="nav-about">About</a></li>
       <li class="social">
-        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"  id="nav-twitter"><i class="fa fa-twitter" title="Twitter"></i></a>
+        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
       </li>
       <li class="social">
-        <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github" title="GitHub"></i></a>
+        <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github icon-github" title="@{{ site.author.handle }} on GitHub"></i></a>
+      </li>
+      <li class="social">
+        <a href="https://instagram.com/{{ site.author.handle }}" target="_blank" id="nav-instagram"><i class="fa fa-instagram icon-instagram" title="@{{ site.author.handle }} on Instagram"></i></a>
       </li>
     </ul>
   </nav>
