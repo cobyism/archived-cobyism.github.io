@@ -3,13 +3,13 @@ title: I’m writing a book
 layout: post
 ---
 
-<a href="http://cobyism.com/remotejobseeker"><img width="150px" align="right" style="margin-left: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
+<a href="http://cobyism.com/remotejobseeker/"><img width="150px" align="right" style="margin-left: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
 
-**TL;DR: Want to make the switch to working remotely? [Subscribe over here for updates](http://cobyism.com/remotejobseeker).**
+**TL;DR: Want to make the switch to working remotely? [Subscribe over here for updates](http://cobyism.com/remotejobseeker/).**
 
-Through my position as a product designer at GitHub, and having worked in the past as a freelancer, I’ve always been creating things for other people. I get a huge amount of satisfaction from that—and I don’t plan to stop—however I feel like creating something entirely myself from start to finish is one of the best ways for me to continue challenging myself and my skills, while helping other people in the process. For that reason, I’ve decided that this year I’m going to try my hand at creating products myself. 
+Through my position as a product designer at GitHub, and having worked in the past as a freelancer, I’ve always been creating things for other people. I get a huge amount of satisfaction from that—and I don’t plan to stop—however I feel like creating something entirely myself from start to finish is one of the best ways for me to continue challenging myself and my skills, while helping other people in the process. For that reason, I’ve decided that this year I’m going to try my hand at creating products myself.
 
-I’m going to start with a book. Well, an ebook to be specific. It’s going to be called the [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker). I’ll talk about the choice of topic in a sec, but first…
+I’m going to start with a book. Well, an ebook to be specific. It’s going to be called the [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker/). I’ll talk about the choice of topic in a sec, but first…
 
 ## Why a book?
 
@@ -17,9 +17,9 @@ Why start with a book? Well, the simplest answer is that writing a book is one o
 
 Another point of consideration is more practical. The number of things that can possibly go wrong with a book compared with other types of products is an order of magnitude lower. As an ebook, the cost of manufacturing and distribution is virtually nil, and unlike a software product, it can’t really crash. The thing you’re *reading* the ebook with could crash of course, but that’s an acceptable risk as far as I’m concerned.
 
-## The [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker)
+## The [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker/)
 
-<a href="http://cobyism.com/remotejobseeker"><img width="150px" align="left" style="margin-right: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
+<a href="http://cobyism.com/remotejobseeker/"><img width="150px" align="left" style="margin-right: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
 
 Working remotely—both as a freelancer/contractor, and at my current position at GitHub—has had an incredibly positive impact on my life, so when I was considering putting something together as a book this topic stood out naturally as something I wanted to share. I want to help people who want to work remotely make the switch too, so I’m hoping that writing down the insights I’ve learned about navigating the unknowns of getting remote work ends up helping people do exactly that.
 
@@ -27,7 +27,7 @@ The book I’m putting together is going to cover all of the main points along t
 
 ## Progress and timelines
 
-As far as actual content goes, it’s coming along nicely. Since I haven’t done this before, my estimates are probably going to be off no matter how I do it, but if I had to hazard a guess I’d say I’m approximately 50% done with the actual content of the book. I’ve thrown together [a simple landing page](http://cobyism.com/remotejobseeker) so that anyone who’s interested can begin signing up, and I plan to keep other aspects of the marketing, distribution, etc. fairly lightweight, so I’m hopeful that there won’t be too many obstacles in the way of this getting :ship:ed.
+As far as actual content goes, it’s coming along nicely. Since I haven’t done this before, my estimates are probably going to be off no matter how I do it, but if I had to hazard a guess I’d say I’m approximately 50% done with the actual content of the book. I’ve thrown together [a simple landing page](http://cobyism.com/remotejobseeker/) so that anyone who’s interested can begin signing up, and I plan to keep other aspects of the marketing, distribution, etc. fairly lightweight, so I’m hopeful that there won’t be too many obstacles in the way of this getting :ship:ed.
 
 As far as timelines go, I’m going to draw a line in the sand and say that this will ship within two months of today. For anyone playing along at home, that’s July 25th, 2015, which could end up being a very naive deadline to set myself considering I have three weeks worth of international travel to do spread throughout that period, as well as moving house (I’m moving to Scotland!). :sweat_smile: is without a doubt the emoji that best represents how I feel about this.
 
@@ -39,6 +39,6 @@ Why set a deadline that I’m already admitting could be overly optimistic? Why 
 
 ## Go sign up for updates!
 
-<a href="http://cobyism.com/remotejobseeker"><img width="150px" align="right" style="margin-left: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
+<a href="http://cobyism.com/remotejobseeker/"><img width="150px" align="right" style="margin-left: 20px;" src="http://cobyism.com/remotejobseeker/public/cover.png" alt="Remote Jobseeker’s Handbook"></a>
 
-If you’re at all interested in making the switch to working remotely, I’d love it if you’d [go sign up](http://cobyism.com/remotejobseeker) so you can stay in the loop and follow my progress as I get this thing :ship:able! As the Remote Jobseeker’s Handbook gets closer to being ready, I may even send out some sample chapters (and possibly a special offer) to early subscribers! :smiley:
+If you’re at all interested in making the switch to working remotely, I’d love it if you’d [go sign up](http://cobyism.com/remotejobseeker/) so you can stay in the loop and follow my progress as I get this thing :ship:able! As the Remote Jobseeker’s Handbook gets closer to being ready, I may even send out some sample chapters (and possibly a special offer) to early subscribers! :smiley:

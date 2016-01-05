@@ -6,8 +6,8 @@ layout: post
 At yesterday’s WWDC event, Apple announced the that next release of OS X, version 10.11, will be called "[El Capitan](http://www.apple.com/osx/elcapitan-preview/)", and made a developer beta version of the OS available for download via their [Apple Developer Program](http://developer.apple.com/). I’m itching to try it out, and I’m sure you are too, so I thought I’d write up a guide to walk you through how to create a bootable USB installer.
 
 <div class="book-teaser">
-  <a href="http://cobyism.com/remotejobseeker" target="_blank"><img src="http://cobyism.com/remotejobseeker/public/cover.png" width="60px" class="book-cover"></a>
-  <strong>Psst!</strong> Ever wanted to work remotely? Check out this ebook I’m putting together called the <a href="http://cobyism.com/remotejobseeker" target="_blank">Remote Jobseeker’s Handbook &raquo;</a>
+  <a href="http://cobyism.com/remotejobseeker/" target="_blank"><img src="http://cobyism.com/remotejobseeker/public/cover.png" width="60px" class="book-cover"></a>
+  <strong>Psst!</strong> Ever wanted to work remotely? Check out this ebook I’m putting together called the <a href="http://cobyism.com/remotejobseeker/" target="_blank">Remote Jobseeker’s Handbook &raquo;</a>
 </div>
 
 ## Preparation
