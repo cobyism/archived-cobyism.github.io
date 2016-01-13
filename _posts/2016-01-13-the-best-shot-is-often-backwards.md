@@ -3,7 +3,7 @@ title: The best shot is often backwards
 layout: post
 ---
 
-What's that sound? Clicking, clacking, snapping, and whirring, all around..
+What's that sound? Clicking, clacking, snapping, and whirring, all around…
 
 We hear the buttery soft sound of an SLR camera shutter (or the tacky fake shutter sound effect phones make), and we immediately jump to the conclusion that *someone else* is getting the shot of a lifetime. Fear of missing out (FOMO) kicks in. We reach for our own camera, or into our pocket for our phone to join in. We follow along with the crowd and take the picture *the crowd* has decided needs to be taken, based on what someone else originally saw. You’ll almost never take a compelling image this way.
 
