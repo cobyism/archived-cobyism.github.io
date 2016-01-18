@@ -1,5 +1,51 @@
 header {
-  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.site-title {
+  position: relative;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin: 0;
+  margin-top: -4px;
+  font-size: 2rem;
+  font-weight: 700;
+
+  .coby {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .ism {
+    text-shadow:
+      -2px 0 rgba(#08f, .5),
+      2px 0 rgba(#f00, .5);
+    opacity: 0.5;
+  }
+}
+
+nav {
+  font-weight: bold;
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 470px){
+  header {
+    flex-direction: column;
+  }
+
+  nav:first-of-type {
+    margin: 10px 0;
+  }
+}
+
+header {
   margin-bottom: 2rem;
   text-align: center;
 
@@ -38,14 +84,4 @@ header {
 
 .icon-rss {
   color: orange;
-}
-
-@media (min-width: 36em) {
-  header {
-    text-align: right;
-
-    .site-title {
-      float: left;
-    }
-  }
 }

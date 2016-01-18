@@ -1,13 +1,16 @@
 <header>
   <h3 class="site-title">
-    <img src="{{ site.baseurl }}public/avatar.png" alt="@cobyism • Coby Chapple" width="28px" class="avatar">
-    <a href="{{ site.baseurl }}" id="header-logo">{{ site.author.handle }}</a>
+    <a href="{{ site.baseurl }}" id="header-logo" class="header-logo"><span class="ism">cobyism</span> <span class="coby">coby</span></a>
   </h3>
   <nav>
     <ul>
       <li><a href="{{ site.baseurl }}writing/" id="nav-writing">Writing</a></li>
       <li><a href="{{ site.baseurl }}talks/" id="nav-talks">Talks</a></li>
       <li><a href="{{ site.baseurl }}about/" id="nav-about">About</a></li>
+    </ul>
+  </nav>
+  <nav>
+    <ul>
       <li class="social">
         <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
       </li>
