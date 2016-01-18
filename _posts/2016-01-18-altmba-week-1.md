@@ -27,6 +27,10 @@ The prospect of being eaten if we made a crappy decision has baked a natural pro
 
 Ignore sunk costs. Deliberately question the frame of every decision. Make sure you know [what the decision is for](https://vimeo.com/126115683). Understand the decision tree, and the probability of all the contingencies along each branch. Rank your priorities. For decisions big and small, these tools will always improve the quality of your choices (or at least your understanding of them).
 
+## Giving and receiving feedback
+
+In addition to the projects themselves, the exercise of reading other people’s work, processing it, and finding ways to comment on it that challenge people to go further into the nooks and crannies where there’s still room for more substance is very thought-provoking. More than anything, including receiving the comments of others on *my* work, this aspect of the course has forced me to re-examine my own work and thought process and look for ways to level-up. It’s hard to say exactly *how* I’m changing as a result, but I can tell something is happening.
+
 ## Ch-ch-ch-changes
 
 On their own, these projects are all showing me useful things about myself, my process, and my potential. Collectively though, I can already sense some changes happening in the way I’m approaching my work, my writing, my conversations, and my internal dialogue. It’s still a bit blurry and hard to make out, but the shapes are moving around out there, and I’m certain they’ll come in to focus more and more as the weeks roll on.
