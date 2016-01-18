@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  {% if page.title == "Home" %}
+    {% capture site_title %}{{ site.title }} • {{ site.description }}{% endcapture %}
+  {% elsif page.is_post %}
+    {% capture site_title %}{{ page.title }}, by @{{ site.author.handle }}{% endcapture %}
+  {% else %}
+    {% capture site_title %}{{ page.title }} • {{ site.title }}{% endcapture %}
+  {% endif %}
+  <title>{{ site_title }}</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  {% if page.description %}
+    {% capture meta_description %}{{ page.description }}{% endcapture %}
+  {% else %}
+    {% capture meta_description %}{{ content }}{% endcapture %}
+  {% endif %}
+  <meta name="description" content="{{ meta_description | strip_html | truncatewords: 200 | strip_newlines | escape_once }}">
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}, coby chapple, cobyism, design blog, remote blog">
+  {% else %}
+    <meta name="keywords" content="coby chapple, cobyism, design blog, product design, github designer, design speaker, remote work, working remotely, open source design">
+  {% endif %}
+
+  <meta property="og:title" content="{{ site_title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:image" content="https://github.com/cobyism.png" />
+
+  <script src="//cdn.optimizely.com/js/2350390699.js"></script>
+
+  <!-- TypeKit -->
+  <script src="https://use.typekit.net/dxk1rmx.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/newbeginnings.css">
+
+  <!-- Font Awesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}public/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}public/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}public/favicon-32x32.png" sizes="32x32">
+
+  <link rel="alternate" type="application/rss+xml" title="@cobyism" href="http://feeds.feedburner.com/cobyism">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>~<a href="#">coby <span class="ism">~cobyism</span></a></h1>
+      <nav>
+        <p class="mini-header">Menu</p>
+        <ul>
+          <li class="selected"><a href="#">About</a></li>
+          <li><a href="#">Writing</a></li>
+          <li><a href="#">Talks</a></li>
+          <li><a href="#">Now</a></li>
+        </ul>
+      </nav>
+    </header>
+    {{ content }}
+  </div>
+</body>
+</html>
