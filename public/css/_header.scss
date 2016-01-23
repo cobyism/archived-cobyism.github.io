@@ -10,9 +10,14 @@ header {
   line-height: 1;
   letter-spacing: -1px;
   margin: 0;
-  margin-top: -4px;
-  font-size: 2rem;
+  margin-top: -5px;
+  font-size: 1.75rem;
   font-weight: 700;
+
+  .header-logo {
+    position: relative;
+    display: inline-block;
+  }
 
   .coby {
     top: 0;
@@ -34,38 +39,88 @@ nav {
   text-transform: uppercase;
 }
 
-@media (max-width: 470px){
-  header {
-    flex-direction: column;
-  }
-
-  nav:first-of-type {
-    margin: 10px 0;
-  }
-}
-
 header {
-  margin-bottom: 2rem;
   text-align: center;
+  padding: 1.5rem;
+  max-width: 980px;
+  margin: 0 auto;
 
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
+  }
 
-    li {
-      display: inline-block;
-      margin-right: .75rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
+  li {
+    display: inline-block;
   }
 
   .fa {
     font-size: 1.2rem;
     vertical-align: middle;
+  }
+}
+
+@media (max-width: 365px){
+  header {
+    flex-direction: column;
+  }
+
+  .site-title {
+    margin: 0;
+  }
+
+  nav:first-of-type {
+    margin: 15px 0 20px;
+  }
+}
+
+@media (min-width: 366px) and (max-width: 567px){
+  .site-title {
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.nav-menu li {
+  font-size: .7rem;
+  letter-spacing: .1em;
+  margin-right: .8rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    padding: .5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.1s ease-in-out;
+    color: #999;
+  }
+
+  a:hover {
+    border-color: #ccc;
+  }
+
+  &.selected a {
+    border-color: #fc0;
+  }
+
+  a:hover,
+  &.selected a {
+    color: #334;
+  }
+}
+
+.nav-social li {
+  margin-right: .6rem;
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 

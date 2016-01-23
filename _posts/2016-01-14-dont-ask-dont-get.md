@@ -11,4 +11,4 @@ If you have an end goal or result in mind, at some point you’re going to have 
 
 What are you putting off asking for?
 
-*(While I have your attention, I’m going to take my own medicine and invite you to do something for me, if you’re feeling generous. Find something I’ve created that resonates with you, and share it with someone else who might enjoy it too. It could be one of [my other blog posts](http://cobyism.com/writing/), the [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker/) that’s coming out soon, a [photo of mine](https://instagram.com/cobyism/), or something else.)*
+*(While I have your attention, I’m going to take my own medicine and invite you to do something for me, if you’re feeling generous. Find something I’ve created that resonates with you, and share it with someone else who might enjoy it too. It could be one of [my other blog posts]({{ site.baseurl }}blog/), the [Remote Jobseeker’s Handbook](http://cobyism.com/remotejobseeker/) that’s coming out soon, a [photo of mine](https://instagram.com/cobyism/), or something else.)*

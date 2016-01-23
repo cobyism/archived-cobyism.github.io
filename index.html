@@ -26,7 +26,7 @@ title: Home
   <div class="post-summary">
     <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
     <div class="post-meta">
-      <span class="post-date">{{ post.date | date: '%e %B, %Y' }}</span>
+      <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
       ·
       {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
       <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
@@ -35,4 +35,4 @@ title: Home
 {% endfor %}
 </div>
 
-<h4><a href="{{ site.baseurl }}writing/" id="homepage-readmore">More articles &raquo;</a></h4>
+<h4><a href="{{ site.baseurl }}blog/" id="homepage-readmore">More articles &raquo;</a></h4>

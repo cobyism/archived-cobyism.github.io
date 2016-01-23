@@ -1,15 +1,36 @@
+{% if page.title == "Blog" %}
+  {% capture blog_class %}selected{% endcapture %}
+{% elsif page.is_post %}
+  {% capture blog_class %}selected{% endcapture %}
+{% elsif page.title == "Speaking" %}
+  {% capture speaking_class %}selected{% endcapture %}
+{% elsif page.title == "About" %}
+  {% capture about_class %}selected{% endcapture %}
+{% else %}
+  {% capture home_class %}selected{% endcapture %}
+{% endif %}
+
 <header>
   <h3 class="site-title">
     <a href="{{ site.baseurl }}" id="header-logo" class="header-logo"><span class="ism">cobyism</span> <span class="coby">coby</span></a>
   </h3>
-  <nav>
+  <nav class="nav-menu">
     <ul>
-      <li><a href="{{ site.baseurl }}writing/" id="nav-writing">Writing</a></li>
-      <li><a href="{{ site.baseurl }}talks/" id="nav-talks">Talks</a></li>
-      <li><a href="{{ site.baseurl }}about/" id="nav-about">About</a></li>
+      <li class="{{ home_class }}">
+        <a href="{{ site.baseurl }}" id="nav-writing">Home</a>
+      </li>
+      <li class="{{ blog_class }}">
+        <a href="{{ site.baseurl }}blog/" id="nav-writing">Blog</a>
+      </li>
+      <li class="{{ speaking_class }}">
+        <a href="{{ site.baseurl }}speaking/" id="nav-talks">Speaking</a>
+      </li>
+      <li class="{{ about_class }}">
+        <a href="{{ site.baseurl }}about/" id="nav-about">About</a>
+      </li>
     </ul>
   </nav>
-  <nav>
+  <nav class="nav-social">
     <ul>
       <li class="social">
         <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>

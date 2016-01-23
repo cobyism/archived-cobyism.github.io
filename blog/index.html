@@ -1,9 +1,9 @@
 ---
 layout: main
-title: Writing
+title: Blog
 ---
 
-<h2>Writing <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h2>
+<h2>Blog posts <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h2>
 
 <div class="article-index">
 {% for post in site.posts  %}
@@ -17,7 +17,7 @@ title: Writing
   <div class="post-summary">
     <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
     <div class="post-meta">
-      <span class="post-date">{{ post.date | date: '%e %B, %Y' }}</span>
+      <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
       ·
       {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
       <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
