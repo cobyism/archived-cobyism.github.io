@@ -20,3 +20,5 @@ Connect elsewhere:
 **Got a question?** I’d love to hear from you. Just [send me an email](mailto:{{ site.author.email }}).
 
 <img src="{{ site.baseurl }}public/cobyism-fakesig.png" width="150px" />
+
+{% include newsletter_signup.html %}

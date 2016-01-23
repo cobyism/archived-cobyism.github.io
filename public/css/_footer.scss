@@ -1,0 +1,25 @@
+footer {
+  text-align: center;
+  color: #888;
+  margin: 2rem 0 3rem;
+  font-size: .8em;
+
+  .social-links {
+    padding: 0;
+  }
+
+  .social-links li {
+    list-style: none;
+    display: inline-block;
+    margin-right: .75rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: 28px;
+      vertical-align: middle;
+    }
+  }
+}

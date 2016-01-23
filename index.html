@@ -13,11 +13,7 @@ title: Home
   </p>
 </div>
 
-<section class="photos">
-  <h3>Latest photos <a href="https://instagram.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-instagram icon-instagram"></i></a></h3>
-
-  <div id="instafeed"></div>
-</section>
+{% include newsletter_signup.html %}
 
 <h3>Latest articles <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h3>
 
@@ -36,3 +32,9 @@ title: Home
 </div>
 
 <h4><a href="{{ site.baseurl }}blog/" id="homepage-readmore">More articles &raquo;</a></h4>
+
+<section class="photos">
+  <h3>Latest photos <a href="https://instagram.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-instagram icon-instagram"></i></a></h3>
+
+  <div id="instafeed"></div>
+</section>
