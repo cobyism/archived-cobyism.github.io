@@ -3,10 +3,10 @@ layout: main
 title: Speaking
 ---
 
-<h2>Speaking</h2>
+<h2>Looking for a speaker?</h2>
 
 <p>
-  I frequently deliver talks and workshops about working remotely, product design, and open source at a wide variety of events.
+  I frequently deliver talks and workshops about working remotely, design and development workflows, and building healthy company culture at a wide variety of events.
   If&nbsp;you’re looking for a speaker for your event, please <a href="mailto:{{ site.author.email }}">get&nbsp;in&nbsp;touch</a>.
 </p>
 
@@ -31,14 +31,13 @@ title: Speaking
       <span class="talk-event">
         {% if talk.event_url %}<a href="{{ talk.event_url }}" target="_blank">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}
       </span>
-      {% if talk.slides %}· <span class="talk-slides"><a href="{{ talk.slides }}" target="_blank">Slides</a></span>{% endif %}
-      {% if talk.video %}· <span class="talk-video"><a href="{{ talk.video }}" target="_blank">Video</a></span>{% endif %}
+      {% if talk.slides %}· <span class="talk-slides"><a href="{{ talk.slides }}" target="_blank">View slides</a></span>{% endif %}
+      {% if talk.video %}· <span class="talk-video"><a href="{{ talk.video }}" target="_blank">Watch video</a></span>{% endif %}
     </div>
-    {% if talk.embed %}<div class="talk-embed">{{ talk.embed }}</div>{% endif %}
   </div>
 {% endfor %}
 </div>
 
 <div class="callout">
-  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Send me&nbsp;an&nbsp;email</a></h4>
+  <h4>Need a speaker for your event? <a href="mailto:{{ site.author.email }}">Get&nbsp;in&nbsp;touch</a></h4>
 </div>
