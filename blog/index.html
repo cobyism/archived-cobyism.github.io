@@ -1,36 +1,31 @@
 ---
-layout: main
-title: Blog
+layout: page
+title: Latest articles
 nav_item: blog
+cta: newsletter
 ---
 
-{% include newsletter_signup.html %}
+<div class="article-index">
+{% for post in site.posts  %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-<section class="page">
-  <h2>Blog posts <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h2>
+  {% if forloop.first %}
+    <h4 class="year-group" id="{{ this_year }}-ref">{{this_year}}</h4>
+  {% endif %}
 
-  <div class="article-index">
-  {% for post in site.posts  %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-    {% if forloop.first %}
-      <h4 class="year-group" id="{{ this_year }}-ref">{{this_year}}</h4>
-    {% endif %}
-
-    <div class="post-summary">
-      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-      <div class="post-meta">
-        <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
-        ·
-        {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
-        <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
-      </div>
+  <div class="post-summary">
+    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
+      ·
+      {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
+      <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
     </div>
-
-    {% if this_year != next_year %}
-      <h4 class="year-group" id="{{ next_year }}-ref">{{next_year}}</h4>
-    {% endif %}
-  {% endfor %}
   </div>
-</section>
+
+  {% if this_year != next_year and next_year != "" %}
+    <h4 class="year-group" id="{{ next_year }}-ref">{{next_year}}</h4>
+  {% endif %}
+{% endfor %}
+</div>

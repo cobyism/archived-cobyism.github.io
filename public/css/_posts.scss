@@ -1,10 +1,12 @@
 .article-index {
   margin-bottom: .25rem;
+  text-align: center;
 }
 
 .post-summary {
   display: block;
   padding-bottom: 1rem;
+  font-size: 1.75rem;
 
   .post-link {
     display: block;
@@ -12,7 +14,7 @@
   }
 
   .post-meta {
-    font-size: 11px;
+    font-size: .75rem;
     color: #666;
     text-transform: uppercase;
   }
@@ -105,7 +107,7 @@ article {
 
 .year-group {
   color: #888;
-  margin-top: .5rem;
+  margin: 1rem;
   font-size: 70%;
 }
 
@@ -132,4 +134,9 @@ figure {
     font-size: 60%;
     color: #666;
   }
+}
+
+.post-content {
+  max-width: 700px;
+  margin: 0 auto;
 }

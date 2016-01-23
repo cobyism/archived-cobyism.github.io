@@ -13,7 +13,19 @@
 .wrap {
   max-width: 980px;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1.5rem;
+}
+
+.wrap.no-v-pad,
+.no-v-pad .wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 570px){
+  .wrap {
+    padding: .8rem;
+  }
 }
 
 .container {
