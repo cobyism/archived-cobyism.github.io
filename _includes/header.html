@@ -1,46 +1,48 @@
-{% if page.title == "Blog" %}
+{% if page.nav_item == "blog" %}
   {% capture blog_class %}selected{% endcapture %}
+{% elsif page.nav_item == "speaking" %}
+  {% capture speaking_class %}selected{% endcapture %}
+{% elsif page.nav_item == "about" %}
+  {% capture about_class %}selected{% endcapture %}
 {% elsif page.is_post %}
   {% capture blog_class %}selected{% endcapture %}
-{% elsif page.title == "Speaking" %}
-  {% capture speaking_class %}selected{% endcapture %}
-{% elsif page.title == "About" %}
-  {% capture about_class %}selected{% endcapture %}
 {% else %}
   {% capture home_class %}selected{% endcapture %}
 {% endif %}
 
-<header>
-  <h3 class="site-title">
-    <a href="{{ site.baseurl }}" id="header-logo" class="header-logo"><span class="ism">cobyism</span> <span class="coby">coby</span></a>
-  </h3>
-  <nav class="nav-menu">
-    <ul>
-      <li class="{{ home_class }}">
-        <a href="{{ site.baseurl }}" id="nav-writing">Home</a>
-      </li>
-      <li class="{{ blog_class }}">
-        <a href="{{ site.baseurl }}blog/" id="nav-writing">Blog</a>
-      </li>
-      <li class="{{ speaking_class }}">
-        <a href="{{ site.baseurl }}speaking/" id="nav-talks">Speaking</a>
-      </li>
-      <li class="{{ about_class }}">
-        <a href="{{ site.baseurl }}about/" id="nav-about">About</a>
-      </li>
-    </ul>
-  </nav>
-  <nav class="nav-social">
-    <ul>
-      <li class="social">
-        <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
-      </li>
-      <li class="social">
-        <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github icon-github" title="@{{ site.author.handle }} on GitHub"></i></a>
-      </li>
-      <li class="social">
-        <a href="https://instagram.com/{{ site.author.handle }}" target="_blank" id="nav-instagram"><i class="fa fa-instagram icon-instagram" title="@{{ site.author.handle }} on Instagram"></i></a>
-      </li>
-    </ul>
-  </nav>
+<header class="site-header">
+  <div class="wrap">
+    <h3 class="site-title">
+      <a href="{{ site.baseurl }}" id="header-logo" class="header-logo"><span class="ism">cobyism</span> <span class="coby">coby</span></a>
+    </h3>
+    <nav class="nav-menu">
+      <ul>
+        <li class="{{ home_class }}">
+          <a href="{{ site.baseurl }}" id="nav-writing">Home</a>
+        </li>
+        <li class="{{ blog_class }}">
+          <a href="{{ site.baseurl }}blog/" id="nav-writing">Blog</a>
+        </li>
+        <li class="{{ speaking_class }}">
+          <a href="{{ site.baseurl }}speaking/" id="nav-talks">Speaking</a>
+        </li>
+        <li class="{{ about_class }}">
+          <a href="{{ site.baseurl }}about/" id="nav-about">About</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="nav-social">
+      <ul>
+        <li class="social">
+          <a href="https://twitter.com/{{ site.author.handle }}" target="_blank" id="nav-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="nav-github"><i class="fa fa-github icon-github" title="@{{ site.author.handle }} on GitHub"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://instagram.com/{{ site.author.handle }}" target="_blank" id="nav-instagram"><i class="fa fa-instagram icon-instagram" title="@{{ site.author.handle }} on Instagram"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>

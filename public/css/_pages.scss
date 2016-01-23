@@ -1,0 +1,112 @@
+.page-header {
+  text-align: center;
+}
+
+.page-title {
+  margin: 0;
+  display: inline-block;
+}
+
+// Homepage
+
+.intro {
+  margin-top: 50px;
+  font-size: 1.4rem;
+  position: relative;
+
+  .wrap {
+    background: #f1f1f1;
+    padding: 3rem 4rem 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .img-center {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+  }
+
+  .avatar {
+    position: relative;
+    left: -50%;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@media (min-width: 980px){
+  .intro .wrap {
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 580px){
+  .intro {
+    margin-top: 35px;
+
+    .wrap {
+      padding: 2.5rem 1.5rem 2rem;
+    }
+
+    .avatar {
+      width: 70px;
+      height: 70px;
+    }
+
+    .img-center {
+      top: -35px;
+    }
+  }
+}
+
+#instafeed {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+
+  margin-bottom: .5rem;
+
+  a {
+    margin-right: 10px;
+    line-height: 1px;
+    width: 220px;
+    height: 220px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  img {
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    max-width: none;
+  }
+
+  a:hover img {
+    border-color: #0bf;
+    box-shadow: 0 0 3px rgba(#0bf, .2);
+  }
+}
+
+.photos {
+  margin-bottom: 2rem;
+}

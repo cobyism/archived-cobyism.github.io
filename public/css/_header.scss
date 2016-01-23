@@ -1,4 +1,4 @@
-header {
+.site-header .wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,17 +33,15 @@ header {
   }
 }
 
-nav {
+.site-header nav {
   font-weight: bold;
   font-size: .75rem;
   text-transform: uppercase;
 }
 
-header {
+.site-header .wrap {
   text-align: center;
   padding: 1.5rem;
-  max-width: 980px;
-  margin: 0 auto;
 
   ul {
     padding: 0;
@@ -62,7 +60,7 @@ header {
 }
 
 @media (max-width: 365px){
-  header {
+  .site-header .wrap {
     flex-direction: column;
   }
 
@@ -70,7 +68,7 @@ header {
     margin: 0;
   }
 
-  nav:first-of-type {
+  .nav-menu {
     margin: 15px 0 20px;
   }
 }
@@ -81,7 +79,7 @@ header {
     margin-bottom: 1rem;
   }
 
-  header {
+  .site-header .wrap {
     flex-wrap: wrap;
   }
 }

@@ -3,38 +3,49 @@ layout: main
 title: Home
 ---
 
-<div class="intro">
-  <p>
-    <strong>Hi, I’m Coby Chapple.</strong>
-    I’m&nbsp;a designer and manager at <a href="https://github.com" id="intro-gh-link" target="_blank">GitHub</a>.
-    I&nbsp;care about building <em>focused</em> products with <em>approachable</em> interfaces
-    that <em>encourage&nbsp;flow</em>, and
-    I&nbsp;believe working remotely is the&nbsp;future.
-  </p>
-</div>
+<section class="intro">
+  <div class="wrap">
+    <div class="img-center">
+      <img src="https://github.com/cobyism.png" alt="Coby Chapple" class="avatar" width="100px" height="100px">
+    </div>
+    <p>
+      <strong>Hi, I’m Coby Chapple.</strong>
+      I’m&nbsp;a designer and manager at <a href="https://github.com" id="intro-gh-link" target="_blank">GitHub</a>.
+      I&nbsp;care about building <em>focused</em> products with <em>approachable</em> interfaces
+      that <em>encourage&nbsp;flow</em>, and
+      I&nbsp;believe working remotely is the&nbsp;future.
+    </p>
+  </div>
+</section>
 
 {% include newsletter_signup.html %}
 
-<h3>Latest articles <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h3>
+<section class="latest-articles">
+  <div class="wrap">
+    <h3>Latest articles <a href="http://feeds.feedburner.com/cobyism" target="_blank" title="Subscribe via RSS, if you’re into that kind of thing." id="rss-link"><i class="fa fa-rss-square icon-rss"></i></a></h3>
 
-<div class="article-index">
-{% for post in site.posts | limit: 5  %}
-  <div class="post-summary">
-    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-    <div class="post-meta">
-      <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
-      ·
-      {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
-      <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
+    <div class="article-index">
+    {% for post in site.posts | limit: 5  %}
+      <div class="post-summary">
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: '%B %e, %Y' }}</span>
+          ·
+          {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:200 %}
+          <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
+        </div>
+      </div>
+    {% endfor %}
     </div>
-  </div>
-{% endfor %}
-</div>
 
-<h4><a href="{{ site.baseurl }}blog/" id="homepage-readmore">More articles &raquo;</a></h4>
+    <h4><a href="{{ site.baseurl }}blog/" id="homepage-readmore">More articles &raquo;</a></h4>
+  </div>
+</section>
 
 <section class="photos">
-  <h3>Latest photos <a href="https://instagram.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-instagram icon-instagram"></i></a></h3>
+  <div class="wrap align-center">
+    <h3>Recently Instagramed <a href="https://instagram.com/{{ site.author.handle }}" target="_blank"><i class="fa fa-instagram icon-instagram"></i></a></h3>
 
-  <div id="instafeed"></div>
+    <div id="instafeed"></div>
+  </div>
 </section>

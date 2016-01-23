@@ -1,9 +1,9 @@
 ---
-layout: main
+layout: page
 title: About
+cta: newsletter
+nav_item: about
 ---
-
-## About
 
 Hi there! I’m Coby Chapple. I work on product at [GitHub](https://github.com), a [highly distributed](https://github.com/about/team) company that is [rapidly changing](https://github.com/about/press) the way the world builds software. I [write]({{ site.baseurl }}blog/) and [speak]({{ site.baseurl }}speaking/) about working remotely, building products, and technology in general.
 
@@ -20,5 +20,3 @@ Connect elsewhere:
 **Got a question?** I’d love to hear from you. Just [send me an email](mailto:{{ site.author.email }}).
 
 <img src="{{ site.baseurl }}public/cobyism-fakesig.png" width="150px" />
-
-{% include newsletter_signup.html %}
