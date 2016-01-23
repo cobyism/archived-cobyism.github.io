@@ -12,48 +12,10 @@
       {{ content }}
       {% include newsletter_signup.html %}
     </section>
-
-    <footer>
-
-      <p>Copyright © {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}" id="footer-home-link">Coby&nbsp;Chapple</a>. All&nbsp;rights&nbsp;reserved.</p>
-
-      <ul class="social-links">
-        <li>
-          <a href="https://twitter.com/{{ site.author.handle }}" target="_blank"  id="footer-twitter"><i class="fa fa-twitter icon-twitter" title="@{{ site.author.handle }} on Twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/{{ site.author.handle }}" target="_blank" id="footer-github"><i class="fa fa-github icon-github" title="@{{ site.author.handle }} on GitHub"></i></a>
-        </li>
-        <li>
-          <a href="https://instagram.com/{{ site.author.handle }}" target="_blank" id="footer-instagram"><i class="fa fa-instagram icon-instagram" title="@{{ site.author.handle }} on Instagram"></i></a>
-        </li>
-      </ul>
-    </footer>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type='text/javascript'>
-      $(document).ready(function() {
-        $(".js-read-time").text(function (index, value) {
-          return Math.ceil(parseFloat(value));
-        });
-      });
-    </script>
-
-    <script type="text/javascript" src="{{ site.baseurl }}public/script/instafeed.min.js"></script>
-    <script type="text/javascript">
-      var userFeed = new Instafeed({
-        get: 'user',
-        userId: 185695,
-        accessToken: '185695.0ba7f55.7d6189f0d88d4f4aab82f134388b032b',
-        resolution: 'low_resolution',
-        limit: '4'
-      });
-      userFeed.run();
-    </script>
-
+    {% include footer.html %}
   </div>
 
+  {% include bottom.html %}
   {% include analytics.html %}
-
 </body>
 </html>
