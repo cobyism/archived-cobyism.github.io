@@ -36,3 +36,5 @@ In addition to the projects themselves, the exercise of reading other people’s
 On their own, these projects are all showing me useful things about myself, my process, and my potential. Collectively though, I can already sense some changes happening in the way I’m approaching my work, my writing, my conversations, and my internal dialogue. It’s still a bit blurry and hard to make out, but the shapes are moving around out there, and I’m certain they’ll come in to focus more and more as the weeks roll on.
 
 I can’t wait to see what week two has in store.
+
+_**Update:** [Read my week two summary here](http://cobyism.com/blog/altmba-week-2/)._
