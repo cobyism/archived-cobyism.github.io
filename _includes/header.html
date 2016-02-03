@@ -1,6 +1,6 @@
 {% if page.title == "Blog" %}
   {% capture blog_class %}selected{% endcapture %}
-{% elsif page.is_post %}
+{% elsif page.layout == "post" %}
   {% capture blog_class %}selected{% endcapture %}
 {% elsif page.title == "Speaking" %}
   {% capture speaking_class %}selected{% endcapture %}
