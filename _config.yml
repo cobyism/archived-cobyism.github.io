@@ -9,7 +9,7 @@ author:
 permalink: /blog/:title/
 baseurl: /
 url: http://cobyism.com
-highlighter: pygments
+highlighter: rouge
 
 markdown: kramdown
 redcarpet:
