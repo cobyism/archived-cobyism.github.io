@@ -1,5 +1,7 @@
 {% if page.nav_item == "blog" %}
   {% capture blog_class %}selected{% endcapture %}
+{% elsif page.layout == "post" %}
+  {% capture blog_class %}selected{% endcapture %}
 {% elsif page.nav_item == "speaking" %}
   {% capture speaking_class %}selected{% endcapture %}
 {% elsif page.nav_item == "about" %}

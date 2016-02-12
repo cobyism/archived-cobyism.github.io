@@ -5,7 +5,7 @@
 
   {% if page.title == "Home" %}
     {% capture site_title %}{{ site.title }} • {{ site.description }}{% endcapture %}
-  {% elsif page.is_post %}
+  {% elsif page.layout == "post" %}
     {% capture site_title %}{{ page.title }}, by @{{ site.author.handle }}{% endcapture %}
   {% else %}
     {% capture site_title %}{{ page.title }} • {{ site.title }}{% endcapture %}

@@ -9,15 +9,15 @@ author:
 permalink: /blog/:title/
 baseurl: /
 url: http://cobyism.com
-highlighter: pygments
+highlighter: rouge
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: [with_toc_data, footnotes]
 
 sass:
   sass_dir: public/css
-  
+
 exclude: [vendor]
 
 gems:
