@@ -1,7 +1,14 @@
 footer {
   text-align: center;
   color: #888;
-  font-size: .8em;
+  margin: 2rem 0 3rem;
+  font-size: .8rem;
+
+  h5 {
+    text-transform: uppercase;
+    font-size: .55rem;
+    color: #444;
+  }
 
   .wrap {
     padding-bottom: 3rem;
