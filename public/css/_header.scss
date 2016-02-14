@@ -5,13 +5,18 @@ header {
   align-content: center;
 }
 
+body {
+  border: 15px solid #f0f0f0;
+}
+
 .site-title {
   position: relative;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   margin: 0;
-  margin-top: -5px;
-  font-size: 1.75rem;
+  // margin-top: -5px;
+  // font-size: 0.9rem;
+  text-transform: uppercase;
   font-weight: 700;
 
   .header-logo {
@@ -20,13 +25,26 @@ header {
   }
 
   .coby {
-    top: 0;
-    left: 0;
-    position: absolute;
+    // top: 0;
+    // left: 0;
+    // position: absolute;
+    color: #c00;
+  }
+
+  .chapple {
+    color: #333;
+    opacity: 0.5;
+    transition: all 0.1s ease-in-out;
   }
 
   .ism {
     opacity: 0.5;
+  }
+
+  &:hover {
+    .chapple {
+      opacity: 0.8;
+    }
   }
 }
 
@@ -39,7 +57,7 @@ nav {
 header {
   text-align: center;
   padding: 1.5rem;
-  max-width: 980px;
+  // max-width: 980px;
   margin: 0 auto;
 
   ul {
@@ -111,7 +129,7 @@ header {
   }
 
   &.selected a {
-    border-color: #fc0;
+    border-color: #c00;
   }
 
   a:hover,
