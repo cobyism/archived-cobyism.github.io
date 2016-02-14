@@ -2,7 +2,13 @@ footer {
   text-align: center;
   color: #888;
   margin: 2rem 0 3rem;
-  font-size: .8em;
+  font-size: .8rem;
+
+  h5 {
+    text-transform: uppercase;
+    font-size: .55rem;
+    color: #444;
+  }
 
   .social-links {
     padding: 0;
