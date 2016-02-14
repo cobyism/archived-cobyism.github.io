@@ -58,28 +58,35 @@ header {
   }
 }
 
-@media (max-width: 365px){
-  header {
-    flex-direction: column;
-  }
+@media (max-width: 567px){
+  .nav-menu {
+    order: 3;
+    width: 100%;
+    margin-top: 1rem;
+    border-bottom: 1px solid #f3f3f3;
 
-  .site-title {
-    margin: 0;
-  }
+    ul {
+      display: flex;
+      margin-bottom: -1px;
 
-  nav:first-of-type {
-    margin: 15px 0 20px;
-  }
-}
+      li {
+        width: 25%;
 
-@media (min-width: 366px) and (max-width: 567px){
-  .site-title {
-    flex: 0 0 100%;
-    margin-bottom: 1rem;
+        a {
+          display: inline-block;
+          width: 100%;
+        }
+      }
+    }
   }
 
   header {
     flex-wrap: wrap;
+    justify-content: center;
+
+    .site-title {
+      margin-right: 1rem;
+    }
   }
 }
 
