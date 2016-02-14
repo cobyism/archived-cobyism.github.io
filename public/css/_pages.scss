@@ -1,4 +1,4 @@
-.page-wrapper {
+.site-wrapper {
   & > .wrap {
     max-width: 926px;
     margin: 0 auto;
@@ -10,16 +10,16 @@
 
   section {
     padding: 2rem;
-    border: 1px solid #eee;
+    border-top: 1px solid #eee;
     border-bottom-width: 0;
 
     &:first-of-type {
+      border-top: none;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
 
     &:last-of-type {
-      border: 1px solid #eee;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
     }
