@@ -1,3 +1,31 @@
+.page-wrapper {
+  & > .wrap {
+    max-width: 926px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(#000, .1);
+    padding: 0;
+    background: #fff;
+  }
+
+  section {
+    padding: 2rem;
+    border: 1px solid #eee;
+    border-bottom-width: 0;
+
+    &:first-of-type {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    &:last-of-type {
+      border: 1px solid #eee;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}
+
 .page-header {
   text-align: center;
 }
@@ -10,30 +38,10 @@
 // Homepage
 
 .intro {
-
-  .wrap {
-    padding-top: 0;
-  }
-
   .intro-block {
-    background: #f1f1f1;
-    padding: 3rem 4rem 2.5rem;
-    margin-top: 50px;
-    text-align: center;
     position: relative;
     font-size: 1.4rem;
     border-radius: 5px;
-  }
-
-  .img-center {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-  }
-
-  .avatar {
-    position: relative;
-    left: -50%;
   }
 
   p {
