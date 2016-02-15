@@ -4,7 +4,6 @@ is_post: true
 ---
 
 <article class="post">
-
   <div class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
@@ -14,11 +13,9 @@ is_post: true
       <span class="post-read-time"><span class="js-read-time">{{ readtime }}</span> min read</span>
     </div>
   </div>
-
   <div class="post-content">
     {{ content }}
   </div>
-
   <div class="post-author-info">
     <img src="{{ site.baseurl }}public/avatar.png" alt="Coby Chapple (@cobyism)" width="64px" class="avatar">
     <div class="text">
@@ -27,6 +24,6 @@ is_post: true
       <p><a href="{{ site.baseurl }}about/">Read more &raquo;</a></p>
     </div>
   </div>
-
 </article>
+
 {% include newsletter_signup.html %}

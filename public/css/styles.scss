@@ -143,6 +143,28 @@ body {
   border: 15px solid #f0f0f0;
 }
 
+@media (max-width: 511px){
+  body {
+    border-width: 10px;
+  }
+}
+
+.icon-twitter {
+  color: #55ACEE;
+}
+
+.icon-github {
+  color: #333;
+}
+
+.icon-instagram {
+  color: #3f729b;
+}
+
+.icon-rss {
+  color: orange;
+}
+
 //////////////////////////////////////////////////////////////////
 // Header
 
@@ -173,15 +195,13 @@ header {
 }
 
 .site-title {
-  position: relative;
-  line-height: 1;
-  letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
 
   .header-logo {
-    position: relative;
     display: inline-block;
   }
 
@@ -193,10 +213,6 @@ header {
     color: #333;
     opacity: 0.5;
     transition: all 0.1s ease-in-out;
-  }
-
-  .ism {
-    opacity: 0.5;
   }
 
   &:hover {
@@ -214,17 +230,17 @@ nav {
 
 @media (max-width: 567px){
   .nav-menu {
-    order: 3;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-bottom: 1px solid #f3f3f3;
 
     ul {
-      display: flex;
+      display: table;
       margin-bottom: -1px;
 
       li {
-        width: 25%;
+        display: table-cell;
+        width: 1%;
 
         a {
           display: inline-block;
@@ -237,10 +253,6 @@ nav {
   header {
     flex-wrap: wrap;
     justify-content: center;
-
-    .site-title {
-      margin-right: 1rem;
-    }
   }
 }
 
@@ -272,30 +284,6 @@ nav {
   &.selected a {
     color: #334;
   }
-}
-
-.nav-social li {
-  margin-right: .6rem;
-
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-.icon-twitter {
-  color: #55ACEE;
-}
-
-.icon-github {
-  color: #333;
-}
-
-.icon-instagram {
-  color: #3f729b;
-}
-
-.icon-rss {
-  color: orange;
 }
 
 //////////////////////////////////////////////////////////////////
@@ -349,26 +337,31 @@ footer {
   }
 }
 
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
 .main {
-  padding-top: 1rem;
-  clear: both;
+  @include clearfix;
 
-  & > h1:first-child,
-  & > h2:first-child,
-  & > h3:first-child,
-  & > p:first-child {
-    margin-top: 0;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  padding-bottom: 0;
 
   p,
   li {
     line-height: 1.8em;
+  }
+}
+
+@media (min-width: 32em){
+  .main {
+    padding: 2rem 3rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 48em){
+  .main {
+    padding: 2rem 4rem;
+    padding-bottom: 0;
   }
 }
 
@@ -558,28 +551,6 @@ article {
     margin: 0.5em 0;
   }
 }
-
-// @media (min-width: 500px){
-//   .post-author-info {
-//     text-align: left;
-//
-//     .avatar {
-//       float: left;
-//     }
-//     .text {
-//       float: left;
-//       width: 76%;
-//     }
-//   }
-// }
-//
-// @media (min-width: 768px){
-//   .post-author-info {
-//     .text {
-//       width: 76%;
-//     }
-//   }
-// }
 
 .year-group {
   color: #888;
