@@ -173,6 +173,12 @@ body {
   box-shadow: 0 3px 5px rgba(#000, 0.05);
 }
 
+@media (min-width: 930px){
+  .site-container {
+    margin: 1rem auto;
+  }
+}
+
 //////////////////////////////////////////////////////////////////
 // Header
 
