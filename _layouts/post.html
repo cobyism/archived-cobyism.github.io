@@ -16,6 +16,16 @@ is_post: true
   <div class="post-content">
     {{ content }}
   </div>
+
+  {% if page.previous.url %}
+    <div class="post-read-next">
+      <p>
+        <strong>Read this next:</strong>
+        <a class="prev" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+      </p>
+    </div>
+  {% endif %}
+
   <div class="post-author-info">
     <img src="{{ site.baseurl }}public/avatar.png" alt="Coby Chapple (@cobyism)" width="64px" class="avatar">
     <div class="text">

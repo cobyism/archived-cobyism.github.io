@@ -523,6 +523,10 @@ article {
     }
   }
 
+  .post-content {
+    margin-bottom: 2rem;
+  }
+
   .post-footer {
     border-top: 1px solid #eee;
     margin-top: 1em;
@@ -531,9 +535,14 @@ article {
   }
 }
 
+.post-read-next {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
 .post-author-info {
   background: #fafafa;
-  margin: 2rem 0 1rem;
+  margin: 4rem 0 1rem;
   // padding-top: 1rem;
   // overflow: hidden;
   text-align: center;
