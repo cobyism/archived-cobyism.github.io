@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+now = Time.now
+
+year = now.year.to_s
+month = now.month.to_s.rjust(2, "0")
+day = now.day.to_s.rjust(2, "0")
+
+post_title = ARGV[0] || "Untitled post"
+post_slug = post_title.downcase.gsub("\s", "-")
+
+post_folder = "#{year}-#{month}"
+post_prefix = "#{year}-#{month}-#{day}"
+post_path = "#{Dir.pwd}/blog/_posts/#{post_folder}"
+post_filename = "#{post_prefix}-#{post_slug}.md"
+post_location = "#{post_path}/#{post_filename}"
+
+post_contents = "---
+title: #{post_title}
+layout: post
+---
+
+Post contents."
+
+File.open(post_location, "w") do |file|
+  file.write(post_contents)
+end
+
+`atom #{post_location}`
