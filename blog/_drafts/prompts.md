@@ -1,5 +1,7 @@
 # Writing prompts and ideas
 
+Connect the dots.
+
 Write until it’s good.
 
 Be willing to be "not very good" at something *in order to be* good later.
