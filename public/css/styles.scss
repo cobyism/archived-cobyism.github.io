@@ -763,3 +763,35 @@ figure {
 .photos {
   margin-bottom: 2rem;
 }
+
+//////////////////////////////////////////////////////////////////
+// RJH Teaser
+
+.rjh-teaser {
+  padding: 1rem;
+  background: #eee;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 1.5rem;
+
+  img {
+    position: absolute;
+    top: -0.25rem;
+    left: -0.5rem;
+
+    -webkit-transform: rotateZ(-5deg);
+    -moz-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  a {
+    font-weight: bold;
+  }
+}

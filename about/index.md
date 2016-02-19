@@ -21,4 +21,6 @@ Connect elsewhere:
 
 <img src="{{ site.baseurl }}public/cobyism-fakesig.png" width="150px" />
 
+{% include rjh_teaser.html %}
+
 {% include newsletter_signup.html %}
