@@ -1,2 +1,2 @@
-jekyll: bundle exec jekyll serve
+jekyll: bundle exec jekyll serve --future
 guard: bundle exec guard
