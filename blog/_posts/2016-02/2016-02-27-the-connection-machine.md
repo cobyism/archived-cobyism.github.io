@@ -1,5 +1,5 @@
 ---
-title: The Connection Machine
+title: The connection machine
 layout: post
 ---
 
