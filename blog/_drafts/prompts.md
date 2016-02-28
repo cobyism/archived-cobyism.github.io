@@ -45,6 +45,14 @@ Why doesn’t leadership extend across the front-lines to customers?
 
 Grease the groove (Pavel Tsatsouline)
 
+- **Don’t panic**. The way we respond to pressure, constraints, and external forces is up to us, and in almost no scenario is it helpful to choose panic and stress. Shoutout to [Douglas Adams](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don.27t_Panic).
+
+- **There is no shortage.** You don’t need to fear running out of ideas or things to say, you just need to learn the skill (and it is a learnable skill, which you can get better at over time) of getting out of your own way and letting abundance just… turn up.
+
+- **Rationality is subjective.** The fact that *our* reality feels more "right" than someone else’s is a complete illusion, and it needs to be recognised as such if we are to successfully make change happen. This comes back to empathy.
+
+- **Work with the grain.** It’s better to understand the way things work and use that to your advantage to create a change for the positive than to wish things were a certain way and spend all your energy fighting with the status quo to convince it to be otherwise.
+
 ## Themes
 
 - Goals
