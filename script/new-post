@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'fileutils'
+
 now = Time.now
 
 year = now.year.to_s
@@ -21,6 +23,8 @@ layout: post
 ---
 
 Post contents."
+
+FileUtils.mkdir_p post_path
 
 File.open(post_location, "w") do |file|
   file.write(post_contents)
