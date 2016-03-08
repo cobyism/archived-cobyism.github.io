@@ -20,7 +20,7 @@ That depends *entirely* on the position. There’s no point in us trying to be s
 - **Skills and experience** that match the levels we’re hiring for. If you’re over- or under-qualified, you won’t be set up for success.
 - **People who invest personally** in their work, and who have a deeper "why" that’s clear. Values are important to us at GitHub.
 - **Excellent communicators.** Everyone communicates, all the time. Listening to others and being articulate matters more than you can imagine.
-- **High levels of empathy.** In a distributed company, everyone (even those people who work at HQ) is remote to someone else, so it’s *especially critical* that GitHubbers are empathetic and respectful of their colleagues’s realities.
+- **High levels of empathy.** In a distributed company, everyone (even those people who work at HQ) is remote to someone else, so it’s *especially critical* that GitHubbers are empathetic and respectful of their colleagues’ realities.
 - **A history of shipping.** Perfectly executed work that never ships is useless. Show that you understand the delicate balance required to get things over the line, repeatedly.
 
 There’s always many other things we consider, especially when it gets to technical and operational concerns, but hopefully that gives you some insight into what we value.
