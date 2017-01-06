@@ -55,6 +55,14 @@
   date: 15 August 2014
   slides: https://speakerdeck.com/cobyism/static-sites-with-jekyll-and-github-pages
   embed: <script async class="speakerdeck-embed" data-id="27cf2920068e013258d3029fef629589" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+  
+- topic: Things I Learned from GitHub’s Codebase
+  event: Break Conference
+  event_url: http://breakconf.org
+  location: Belfast
+  date: 12 November 2014
+  slides: https://speakerdeck.com/cobyism/belfast-ruby-interesting-things-from-the-github-codebase
+  embed: <script async class="speakerdeck-embed" data-id="8d08bdd04d5601321b6b1681bfef9665" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 - topic: GitHub Flow
   event: AWS Summit Tokyo
@@ -63,3 +71,11 @@
   date: 3 June 2015
   slides: https://speakerdeck.com/cobyism/github-flow-aws-summit-tokyo-2015
   embed: <script async class="speakerdeck-embed" data-id="c104411f38d5487cafe032de9593d9f7" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+- topic: Asynchronous Communication For The Win!
+  event: Landing.Jobs Festival
+  event_url: https://festival.landing.jobs/
+  location: Lisbon
+  date: 3 June 2016
+  slides: https://speakerdeck.com/cobyism/asynchronous-communication-for-the-win
+  embed: <script async class="speakerdeck-embed" data-id="d4d76c4b11f74716815edad8f3a8c3c7" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
